@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 
-/* Imagens do Header */
+/* Imagens e textos do Header */
 .header-img {
     max-width: 140px;
     height: auto;
@@ -14,7 +14,6 @@
     max-width: 200px;
 }
 
-/* Layout do Header */
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -42,37 +41,35 @@
 }
 
 /* Navegação do Header */
-.header-nav .navbar-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header-nav {
+    background-color: #fff; 
 }
 
-.header-nav .navbar-nav .nav-link,
-.header-nav .navbar-nav .dropdown-item {
+.header-nav .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.header-nav .navbar-nav .nav-link {
     font-family: 'Jockey One', sans-serif;
     font-size: 16px;
-    margin: 0 10px;
     color: #333;
     text-decoration: none;
+    margin: 0 10px;
     transition: color 0.3s, background-color 0.3s;
 }
 
-.header-nav .navbar-nav .nav-link:hover,
-.header-nav .navbar-nav .dropdown-item:hover {
+.header-nav .navbar-nav .nav-link:hover {
     color: #007bff;
 }
 
-.header-nav .navbar-nav .nav-link.active,
-.header-nav .navbar-nav .dropdown-item.active {
+.header-nav .navbar-nav .nav-link.active {
     color: #007bff;
 }
 
 /* Dropdown */
-.header-nav .navbar-nav .dropdown {
-    position: relative;
-}
-
 .header-nav .navbar-nav .dropdown-menu {
     display: none;
     position: absolute;
@@ -81,9 +78,7 @@
     min-width: 200px;
     background-color: #fff;
     border: 1px solid #ddd;
-    z-index: 1000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: 'Jockey One', sans-serif;
 }
 
 .header-nav .navbar-nav .dropdown:hover .dropdown-menu {
@@ -103,7 +98,6 @@
     color: #007bff;
 }
 
-/* Botão de toggler */
 .header-nav .navbar-toggler {
     border: none;
 }
