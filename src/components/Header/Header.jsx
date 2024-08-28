@@ -75,6 +75,7 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="header-nav-items">
+                    <Nav.Link as={Link} to="/inicio">Início</Nav.Link>
                     <Dropdown title="Times Históricos" items={timesHistoricosItems} />
                     <Dropdown title="Jogadores Históricos" items={jogadoresHistoricosItems} />
                     <Dropdown title="Títulos Históricos" items={titulosHistoricosItems} />

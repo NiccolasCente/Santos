@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="inicio" element={<Main />} />
       </Routes>
     </Router>
     </ThemeProvider>

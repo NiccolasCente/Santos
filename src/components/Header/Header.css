@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 
+
+body{
+    background-color: var(--background-color);
+
+}
+
 .header-img {
     max-width: 140px;
     height: auto;
     margin-top: 1em;
     margin-left: 2em;
     margin-right: 2em;
+    
 }
 
 .header-img.center {
     max-width: 200px;
+    
 }
 
 .header-content {
@@ -24,6 +32,7 @@
 .header-item {
     display: flex;
     align-items: center;
+    
 }
 
 .header-text {
@@ -100,7 +109,6 @@
     color: #007bff;
 }
 
-/* Botão de troca de tema */
 .theme-toggle-button {
     background: none;
     border: none;
