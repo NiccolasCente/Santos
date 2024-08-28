@@ -1,11 +1,8 @@
-// Import React
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import '../Header/Dropdown.css';
 
-//Import CSS
-import "../Header/Dropdown.css";
-
-const Dropdown = ({ title, items }) => {
+const Dropdown = ({ title, items, theme }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -13,13 +10,13 @@ const Dropdown = ({ title, items }) => {
   };
 
   return (
-    <div className="dropdown">
-      <button className="dropdown-toggle" onClick={toggleDropdown}>
+    <div className={`dropdown ${theme}`}>
+      <button className={`dropdown-toggle`} onClick={toggleDropdown}>
         {title}
       </button>
-      <div className={`dropdown-menu ${isOpen ? 'show' : ''}`}>
+      <div className={`dropdown-menu ${isOpen ? 'show' : ''} ${theme}`}>
         {items.map((item, index) => (
-          <Link key={index} to={item.path} className="dropdown-item">
+          <Link key={index} to={item.path} className={`dropdown-item`}>
             {item.label}
           </Link>
         ))}

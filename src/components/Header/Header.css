@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 
-/* Imagens e textos do Header */
 .header-img {
     max-width: 140px;
     height: auto;
@@ -19,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    background-color: var(--background-color);
 }
 
 .header-item {
@@ -30,6 +30,7 @@
     margin: 0 10px;
     font-family: 'Jolly Lodger', sans-serif;
     font-size: 48px;
+    color: var(--header-text-color);
 }
 
 .align-left {
@@ -40,22 +41,22 @@
     margin-left: auto;
 }
 
-/* Navegação do Header */
+/* Navegação Header */
 .header-nav {
-    background-color: #fff; 
+    background-color: var(--background-color);
 }
 
 .header-nav .navbar-nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; 
+    width: 100%;
 }
 
 .header-nav .navbar-nav .nav-link {
     font-family: 'Jockey One', sans-serif;
     font-size: 16px;
-    color: #333;
+    color: var(--header-text-color);
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s, background-color 0.3s;
@@ -76,9 +77,10 @@
     top: 100%;
     left: 0;
     min-width: 200px;
-    background-color: #fff;
+    background-color: var(--background-color);
     border: 1px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: var(--text-color);
 }
 
 .header-nav .navbar-nav .dropdown:hover .dropdown-menu {
@@ -88,7 +90,7 @@
 .header-nav .navbar-nav .dropdown-item {
     font-family: 'Jockey One', sans-serif;
     font-size: 16px;
-    color: #333;
+    color: var(--text-color);
     padding: 10px;
     text-decoration: none;
 }
@@ -98,6 +100,44 @@
     color: #007bff;
 }
 
-.header-nav .navbar-toggler {
+/* Botão de troca de tema */
+.theme-toggle-button {
+    background: none;
     border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    transition: color 0.3s ease;
+}
+
+.theme-toggle-button .theme-icon {
+    color: var(--text-color);
+}
+
+.theme-toggle-button .sun {
+    color: #ffc107;
+}
+
+.theme-toggle-button .moon {
+    color: #0a0a0a;
+}
+
+:root {
+    --background-color: #fff;
+    --text-color: #333;
+    --header-text-color: #333;
+    --dropdown-bg-light: #fff;
+    --dropdown-text-light: #333;
+    --dropdown-hover-light: #007bff;
+}
+
+.dark {
+    --background-color: #000;
+    --text-color: #fff;
+    --header-text-color: #fff;
+    --dropdown-bg-dark: #333;
+    --dropdown-text-dark: #fff;
+    --dropdown-hover-dark: #007bff;
 }

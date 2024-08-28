@@ -1,3 +1,15 @@
+.main.light {
+  background-color: #fff; 
+}
+
+.main.dark {
+  background-color: #000; 
+}
+
+.main.dark .image-wrapper {
+  border: 1px solid #FFF;
+}
+
 .image-wrapper {
   position: relative;
   border: 1px solid black;

@@ -1,17 +1,21 @@
-//Import React
-import React from "react";
+// Import React
+import React, { useContext } from "react";
 import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom"; 
-import Dropdown from "../Header/Dropdown"; 
+import { Link } from "react-router-dom";
+import Dropdown from "../Header/Dropdown";
+import { FaSun, FaMoon } from "react-icons/fa";
+import { ThemeContext } from "../../components/common/ThemeProvider/ThemeContext";
 
-//Import CSS
+// Import CSS
 import "../Header/Header.css";
 
-//Import Imagens
+// Import Imagens
 import LogoHeader from "../../assets/Santos_Logo.png";
 import LeftRightLogo from "../../assets/sublogo_header.png";
 
 const Header = () => {
+  const { theme, toggleTheme } = useContext(ThemeContext);
+
   const timesHistoricosItems = [
     { path: "/times-historicos/santos-1958-1974", label: "Santos 1958 - 1974" },
     { path: "/times-historicos/santos-2002-2005", label: "Santos 2002-2005" },
@@ -47,7 +51,7 @@ const Header = () => {
   ];
 
   return (
-    <header>
+    <header className={`header ${theme}`}>
       <Container fluid>
         <Row className="justify-content-center">
           <Col>
@@ -66,7 +70,7 @@ const Header = () => {
                 <img src={LeftRightLogo} alt="Imagem Direita" className="header-img" />
               </div>
             </div>
-            <Navbar bg="white" variant="light" expand="lg" className="header-nav">
+            <Navbar className="header-nav">
               <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -79,6 +83,9 @@ const Header = () => {
                     <Nav.Link as={Link} to="/pele">Pelé</Nav.Link>
                     <Nav.Link as={Link} to="/historia">História</Nav.Link>
                     <Nav.Link as={Link} to="/contato">Contato</Nav.Link>
+                    <button onClick={toggleTheme} className={`theme-toggle-button ${theme}`}>
+                      {theme === "light" ? <FaMoon className="theme-icon moon" /> : <FaSun className="theme-icon sun" />}
+                    </button>
                   </Nav>
                 </Navbar.Collapse>
               </Container>

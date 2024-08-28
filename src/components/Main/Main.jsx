@@ -1,9 +1,10 @@
 //Componentes React
-import React from "react";
+import React, { useContext } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { ThemeContext} from "../../components/common/ThemeProvider/ThemeContext";
 
 //Componentes CSS
-import "./Main.css"; 
+import "../Main/Main.css"; 
 
 //Componentes Imagens
 import Main1 from "../../assets/main1.jpeg";
@@ -12,8 +13,9 @@ import Main3 from "../../assets/main3.jpeg";
 import Main4 from "../../assets/main4.jpeg";
 
 const Main = () => {
+  const {theme} = useContext(ThemeContext);
   return (
-    <main>
+    <main className={`main ${theme}`}>
       <Container>
         <Row>
           {/* esquerda */}

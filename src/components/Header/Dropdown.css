@@ -1,3 +1,4 @@
+/* Estilos padrões */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -8,8 +9,12 @@
   border: none;
   cursor: pointer;
   font-size: 16px;
-  color: #333;
+  color: var(--dropdown-text-light); /* Cor padrão do texto para o tema claro */
   font-family: 'Jockey One', sans-serif;
+}
+
+.dropdown-toggle:hover {
+  color: var(--dropdown-hover-light); /* Cor azul para o tema claro */
 }
 
 .dropdown-menu {
@@ -18,14 +23,13 @@
   top: 100%;
   left: 0;
   min-width: 200px;
-  background-color: #fff;
+  background-color: var(--dropdown-bg-light); /* Cor de fundo padrão para o tema claro */
   border: 1px solid #ddd;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: 'Jockey One', sans-serif;
 }
 
-/* Mostra o dropdown ativado */
 .dropdown-menu.show {
   display: block;
 }
@@ -33,13 +37,35 @@
 .dropdown-item {
   display: block;
   padding: 10px;
-  color: #333;
+  color: var(--dropdown-text-light); /* Cor do texto para o tema claro */
   text-decoration: none;
   font-family: 'Jockey One', sans-serif;
   font-size: 16px;
 }
 
 .dropdown-item:hover {
-  background-color: #f8f9fa;
-  color: #007bff;
+  background-color: var(--dropdown-hover-light); /* Cor de fundo azul para o hover no tema claro */
+  color: #fff; /* Texto branco ao passar o mouse no tema claro */
+}
+
+/* Estilos para o tema escuro */
+.dark .dropdown-toggle {
+  color: var(--dropdown-text-dark); /* Texto branco para o tema escuro */
+}
+
+.dark .dropdown-toggle:hover {
+  color: var(--dropdown-hover-dark); /* Cor azul para o tema escuro */
+}
+
+.dark .dropdown-menu {
+  background-color: var(--dropdown-bg-dark); /* Fundo escuro para o menu */
+}
+
+.dark .dropdown-item {
+  color: var(--dropdown-text-dark); /* Texto branco para o tema escuro */
+}
+
+.dark .dropdown-item:hover {
+  background-color: var(--dropdown-hover-dark); /* Cor azul para o hover no tema escuro */
+  color: #fff; /* Texto branco ao passar o mouse no tema escuro */
 }
