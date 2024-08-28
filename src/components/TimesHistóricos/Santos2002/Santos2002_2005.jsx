@@ -1,15 +1,15 @@
 //Componente React
 import React, {useContext} from "react";
-import { ThemeContext } from "../../components/common/ThemeProvider/ThemeContext";
+import { ThemeContext } from "../../common/ThemeProvider/ThemeContext";
 
 //Componente Bootstrap
 import { Container, Row, Col } from "react-bootstrap";
 
 //Componentes CSS
-import "../../assets/styles/global.css";
+import "../Santos2002/Santos2002.css";
 
 //Componentes Imagens
-import Time2002 from "../../assets/Santos2002/2002_time.webp";
+import Time2002 from "../../../assets/Santos2002/2002_time.webp";
 
 
 const Santos2002_2005 = () => {

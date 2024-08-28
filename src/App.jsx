@@ -10,7 +10,7 @@ import Main from "./components/Main/Main";
 
 //Import SubSections Times Históricos
 
-import Santos2002_2005 from "../src/components/TimesHistóricos/Santos2002_2005";
+import Santos2002_2005 from "../src/components/TimesHistóricos/Santos2002/Santos2002_2005";
 
 
 // Import CSS
