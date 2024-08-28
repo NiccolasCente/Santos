@@ -29,7 +29,7 @@ const Main = () => {
             </div>
             <div className="image-wrapper">
               <img src={Main3} alt="Imagem 2" className="img-fluid" />
-              <Link to="/meninos-da-vila" className="link-text">
+              <Link to="/times-historicos/meninos-da-vila-2002-2005" className="link-text">
                 <div className="image-text">Times Históricos - Meninos da Vila 2002 - 2005</div>
               </Link>
             </div>
