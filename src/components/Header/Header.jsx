@@ -74,7 +74,7 @@ const Header = () => {
                     <Dropdown title="Times Históricos" items={timesHistoricosItems} />
                     <Dropdown title="Jogadores Históricos" items={jogadoresHistoricosItems} />
                     <Dropdown title="Títulos Históricos" items={titulosHistoricosItems} />
-                    <Nav.Link as={Link} to="/time-do-sonhos">Time do Sonho</Nav.Link>
+                    <Nav.Link as={Link} to="/time-do-sonhos">Time do Sonhos</Nav.Link>
                     <Nav.Link as={Link} to="/galeria-de-titulos">Galeria de Títulos</Nav.Link>
                     <Nav.Link as={Link} to="/pele">Pelé</Nav.Link>
                     <Nav.Link as={Link} to="/historia">História</Nav.Link>

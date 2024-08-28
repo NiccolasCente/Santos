@@ -2,7 +2,7 @@
   position: relative;
   border: 1px solid black;
   margin: 1em;
-  width: 100%;
+  width: 80%;
   height: 310px;
 }
 
@@ -17,13 +17,26 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
+  background-color: #FFFF;
+  color: black;
   padding: 5px;
-  width: 100%;
   text-align: center;
+  margin-bottom: 1em;
+  display: inline-block; 
   box-sizing: border-box;
+  padding: 2px 5px;
+  font-family: 'Jockey One', sans-serif;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
+
+.image-text:hover {
+  color: #007bff;
+}  
+
+.link-text {
+  text-decoration: none;
+  color: inherit; 
+}  
 
 .left-column .image-wrapper,
 .right-column .image-wrapper {
