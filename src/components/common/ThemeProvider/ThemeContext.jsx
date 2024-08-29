@@ -1,7 +1,6 @@
-// src/context/ThemeContext.js
+// Componentes React
 import React, { createContext, useState, useEffect } from 'react';
 
-// Cria o contexto do tema
 const ThemeContext = createContext();
 
 const ThemeProvider = ({ children }) => {
