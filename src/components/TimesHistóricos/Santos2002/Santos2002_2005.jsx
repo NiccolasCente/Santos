@@ -10,6 +10,7 @@ import "../Santos2002/Santos2002.css";
 import "../../../assets/styles/SubSection.css";
 
 // Componentes Imagens
+// Ano 2002
 import Time2002 from "../../../assets/Santos2002/2002_time.webp";
 import TimeFoto01 from "../../../assets/Santos2002/comemorando.png";
 import Diego from "../../../assets/Santos2002/diego_santos.webp";
@@ -22,6 +23,9 @@ import Diego3 from "../../../assets/main3.jpeg";
 import SaoGre from "../../../assets/Santos2002/santosxgremio.jpg";
 import Pedaladas from "../../../assets/Santos2002/pedalada.jpg";
 import BR2002 from "../../../assets/Santos2002/titulo.jpeg";
+// Ano 2003
+import Ano2003 from "../../../assets/Santos2002/2003-poster-Santos-Libertadores-acervo.jpg";
+import Oitavas2003 from "../../../assets/Santos2002/elano2003.jpg";
 
 
 const Santos2002_2005 = () => {
@@ -213,6 +217,25 @@ const Santos2002_2005 = () => {
                 <h2 className="h2-subsection">O Ano de 2003, O Ano do "Quase"</h2>
               </AnimatedScroll>
 
+              <AnimatedScroll animationClass="animate-hidden">
+                <img src={Ano2003} className="img-section" alt="Elenco 2003"/>
+                <p className="p-subsection">Time Titular do Santoa na Final da Taça Libertadores da América</p>
+              </AnimatedScroll>
+              <br></br>
+
+              <AnimatedScroll animationClass="animate-hidden">
+                <p className="p-subsection">Depois de um ano de 2002 mágico, o Santos depois de décadas voltava a disputar uma Libertadores. O time de Diego e Robinho
+                   continuava impressionando a todos, conseguindo 4 vitórias e 2 empates na fase de grupos.</p>
+
+                <p className="p-subsection">O primeiro desafio do time da baixada pelo mata-mata da Libertadores era contra O Nacional(URU), depois de um 4x4 no primeiro jogo
+                  , em Montevidéu, e um 2x2 no Brasil, o time passava paras as quartas em uma disputa de pênalti.</p>
+
+                  <img src={Oitavas2003} className="img-section" alt="Libertadores Oitavas  2003"/>
+                  <p className="p-subsection">Santos jogando contra o Nacional do Uruguai pela Oitavas de final da Libertadores</p>
+
+                  <p className="p-subsection">Pelas quartas de final, enfrentaram o Cruz Azul. O time da baixada empatou em 2x2 no México, e venceu na Vila Belmiro por 1x0, gol de Robinho.
+                  </p>
+              </AnimatedScroll>
             </div>
           </Col>
         </Row>
