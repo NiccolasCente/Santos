@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+
+
+/* GLOBAL */
+.img-section {
+    width: 100%;
+    max-height: 30em;
+    object-fit: cover;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+/* DARK */
+.dark .h1-subsection {
+    font-family: "Jockey One", sans-serif;
+    color: #FFFFFF; 
+}
+
+.dark .h2-subsection{
+    font-family: "Jockey One", sans-serif;
+    color: #FFFF;
+
+}
+
+.dark .h4-subsection {
+    font-family: "Jockey One", sans-serif;
+    color: #FFFFFF;
+}
+
+.dark .p-subsection {
+    font-family: "Jockey One", sans-serif;
+    color: #FFFFFF;
+}
+
+.dark .img-section {
+    max-width: 100%; 
+    height: auto; 
+    border: 1px solid #FFFF;
+  }
+
+/*LIGHT */
+
+.light .h1-subsection {
+    font-family: "Jockey One", sans-serif;
+    color: #000000;
+}
+
+.light .h2-subsection{
+    font-family: "Jockey One", sans-serif;
+    color: #000000;
+
+}
+
+.light .h4-subsection {
+    font-family: "Jockey One", sans-serif;
+    color: #000000;
+}
+
+.light .p-subsection {
+    font-family: "Jockey One", sans-serif;
+    color: #000000;
+}
+
+.light .img-section {
+    max-width: 100%; 
+    height: auto; 
+    border: 1px solid #000000;
+  }

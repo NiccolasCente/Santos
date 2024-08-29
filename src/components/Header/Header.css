@@ -6,7 +6,14 @@ body{
     background-color: var(--background-color);
 
 }
+.class1 { 
+    display: flex;
+    flex-direction: column;
+}
 
+.class1 .class2 {
+    display: block !important;
+}
 .header-img {
     max-width: 140px;
     height: auto;

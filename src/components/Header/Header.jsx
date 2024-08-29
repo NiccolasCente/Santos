@@ -30,11 +30,8 @@ const Header = () => {
     { path: "/jogadores-historicos/diego", label: "Diego" },
     { path: "/jogadores-historicos/elano", label: "Elano" },
     { path: "/jogadores-historicos/alex", label: "Alex" },
-    { path: "/jogadores-historicos/renatinho", label: "Renatinho" },
     { path: "/jogadores-historicos/neymar", label: "Neymar Jr" },
     { path: "/jogadores-historicos/ph-ganso", label: "PH Ganso" },
-    { path: "/jogadores-historicos/danilo", label: "Danilo" },
-    { path: "/jogadores-historicos/rafael-cabral", label: "Rafael Cabral" },
   ];
 
   const titulosHistoricosItems = [
@@ -75,7 +72,7 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="header-nav-items">
-                    <Nav.Link as={Link} to="/inicio">Início</Nav.Link>
+                    <Nav.Link as={Link} to="/">Início</Nav.Link>
                     <Dropdown title="Times Históricos" items={timesHistoricosItems} />
                     <Dropdown title="Jogadores Históricos" items={jogadoresHistoricosItems} />
                     <Dropdown title="Títulos Históricos" items={titulosHistoricosItems} />
