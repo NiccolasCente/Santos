@@ -11,6 +11,8 @@ import Time2002 from "../../../assets/Santos2002/2002_time.webp";
 import TimeFoto01 from "../../../assets/Santos2002/comemorando.png";
 import Diego from "../../../assets/Santos2002/diego_santos.webp";
 import Robinho from "../../../assets/Santos2002/robinho_2002.webp";
+import Alex from "../../../assets/Santos2002/alex.jpg";
+import Elano from "../../../assets/Santos2002/elano.jpg";
 
 const Santos2002_2005 = () => {
   const { theme } = useContext(ThemeContext);
@@ -73,8 +75,70 @@ const Santos2002_2005 = () => {
                       <p className="player-life">Encerrou sua passagem pelo Santos em 2004, indo para o Porto por 8 milhões de euros.</p>
                     </div>
                   </li>
-                  {/* Adicione mais jogadores aqui */}
                 </ul>
+              </AnimatedScroll>
+              <AnimatedScroll animationClass="animate-hidden">
+                <ul className="player-list">
+                  <li className="player-info">
+                    <div className="player-image">
+                      <img src={Robinho} className="img-section-jogadores" alt="Robinho" />
+                    </div>
+                    <div className="player-text">
+                      <h3 className="player-h">Robinho</h3>
+                      <h4 className="player-titles">Campeonato Brasileiro 2002 e Campeonato Brasileiro 2004</h4>
+                      <div className="player-details">
+                        <div className="player-position">Segundo-Atacante</div>
+                        <div className="player-number">Número: 7</div>
+                      </div>
+                      <h5 className="player-stats">Partidas: 182 | Gols: 81</h5>
+                      <p className="player-life">Conhecido por sua habilidade em driblar adversários com facilidade. Estreou no time principal em 2002 e teve papel fundamental na conquista do título do Campeonato Brasileiro daquele ano.</p>
+                      <p className="player-life">Robinho continuou a brilhar em 2004, liderando o ataque do time e ajudando o Santos a conquistar mais um Campeonato Brasileiro.</p>
+                      <p className="player-life">Após seu sucesso no Santos, Robinho foi transferido para o Real Madrid em 2005 por 24 milhões de euros, onde continuou sua carreira de destaque no futebol internacional.</p>
+                      </div>
+                  </li>
+                </ul>
+                <AnimatedScroll animationClass="animate-hidden">
+                <ul className="player-list">
+                  <li className="player-info">
+                    <div className="player-image">
+                      <img src={Alex} className="img-section-jogadores" alt="Alex" />
+                    </div>
+                    <div className="player-text">
+                      <h3 className="player-h">Alex</h3>
+                      <h4 className="player-titles">Campeonato Brasileiro 2002 e Campeonato Brasileiro 2004</h4>
+                      <div className="player-details">
+                        <div className="player-position">Zagueiro</div>
+                        <div className="player-number">Número: 6</div>
+                      </div>
+                      <h5 className="player-stats">Partidas: 102 | Gols: 20</h5>
+                      <p className="player-life">Alex foi uma peça fundamental na defesa do Santos, com sua habilidade em interceptar bolas e liderar a linha defensiva.</p>
+                      <p className="player-life">Além de sua solidez defensiva, Alex era conhecido por sua habilidade em marcar gols de falta, principalmente em jogadas de bola parada. Seu desempenho constante ajudou o Santos a conquistar os títulos de 2002 e 2004.</p>
+                      <p className="player-life">Após sua passagem vitoriosa pelo Santos, Alex se transferiu para o Chelsea em 2004 por 12 milhões de euros.</p>
+                      </div>
+                  </li>
+                </ul>
+              </AnimatedScroll>
+              <AnimatedScroll animationClass="animate-hidden">
+                <ul className="player-list">
+                  <li className="player-info">
+                    <div className="player-image">
+                      <img src={Elano} className="img-section-jogadores" alt="Elano" />
+                    </div>
+                    <div className="player-text">
+                      <h3 className="player-h">Elano</h3>
+                      <h4 className="player-titles">Campeonato Brasileiro 2002 e Campeonato Brasileiro 2004</h4>
+                      <div className="player-details">
+                        <div className="player-position">Meia-Direita</div>
+                        <div className="player-number">Número: 11</div>
+                      </div>
+                      <h5 className="player-stats">Partidas: 212 | Gols: 52</h5>
+                      <p className="player-life">Elano foi um meio-campista versátil e dinâmico, conhecido por sua capacidade de marcar gols de longa distância e sua precisão em cobranças de falta. Ele começou a se destacar no Santos durante a campanha vitoriosa do Campeonato Brasileiro de 2002, sendo um dos principais articuladores do time.</p>
+                      <p className="player-life"> Sua consistência, consiência tática, qualidade defensiva e liderança em campo foram fundamentais para o sucesso do time em 2004, ajudando o Santos a conquistar mais um título brasileiro.</p>
+                      <p className="player-life">Em 2005, após sua excelente performance pelo Santos, Elano foi vendido ao Shakhtar Donetsk da Ucrânia por 7,6 milhões de euros, onde continuou a brilhar no futebol europeu.</p>
+                      </div>
+                  </li>
+                </ul>
+              </AnimatedScroll>
               </AnimatedScroll>
             </div>
           </Col>

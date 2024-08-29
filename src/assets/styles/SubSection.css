@@ -24,11 +24,13 @@
 }
 
 .img-section-jogadores {
-    width:270px;
-    height: 207px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
-}
-
+    margin-top: 1em;
+    margin-bottom: 1em;
+    aspect-ratio: 10 / 10; /* Mantém a proporção 1:1 */
+  }
 .player-text {
     flex: 1;
     font-family: "Jockey One", sans-serif;
@@ -36,7 +38,6 @@
 
 .player-h {
     margin-bottom: 0.5em;
-    font-size: 1.5em;
     font-family: "Jockey One", sans-serif;
 }
 
@@ -60,6 +61,7 @@
 .dark .h2-subsection,
 .dark .h4-subsection,
 .dark .p-subsection,
+.dark .p-subsection-intro,
 .dark .player-h,
 .dark .player-titles,
 .dark .player-stats,
@@ -71,6 +73,7 @@
 .dark .h2-subsection,
 .dark .h4-subsection,
 .dark .p-subsection,
+.dark .p-subsection-intro,
 .dark .player-h,
 .dark .player-titles,
 .dark .player-stats,
@@ -99,6 +102,7 @@
 .light .h2-subsection,
 .light .h4-subsection,
 .light .p-subsection,
+.light .p-subsection-intro,
 .light .player-h,
 .light .player-titles,
 .light .player-stats,
@@ -110,6 +114,7 @@
 .light .h2-subsection,
 .light .h4-subsection,
 .light .p-subsection,
+.light .p-subsection-intro,
 .light .player-h,
 .light .player-titles,
 .light .player-stats,
