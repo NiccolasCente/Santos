@@ -1,8 +1,163 @@
-.dark .h2-subsection .upercase{
-    text-transform: uppercase;
+/* GLOBAL */
+.img-section {
+  width: 100%;
+  max-height: 30em;
+  object-fit: cover;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-.light .h2-subsection .upercase{
-    text-transform: uppercase;
+.player-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
+.player-info {
+  display: flex;
+  align-items: flex-start;
+  margin: 2em 0;
+}
+
+.player-image {
+  margin-right: 1em;
+}
+
+.img-section-jogadores {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.player-text {
+  flex: 1;
+  font-family: "Jockey One", sans-serif;
+}
+
+.player-h {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+.player-titles {
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+}
+
+.player-details {
+  display: flex;
+  align-items: center;
+  gap: 1em; 
+  margin-left: 5em;
+  margin-bottom: 0.5em;
+}
+
+.player-position,
+.player-number {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.player-stats {
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+
+.player-life {
+  margin-bottom: 1em;
+}
+
+.p-subsection-intro {
+  margin-bottom: 1em;
+  font-family: "Jockey One", sans-serif;
+}
+
+/* DARK */
+.dark .h1-subsection,
+.dark .h2-subsection,
+.dark .h4-subsection,
+.dark .p-subsection,
+.dark .player-h,
+.dark .player-titles,
+.dark .player-position,
+.dark .player-number,
+.dark .player-stats,
+.dark .player-life,
+.dark .p-subsection-intro {
+  font-family: "Jockey One", sans-serif;
+}
+
+.dark .h1-subsection,
+.dark .h2-subsection,
+.dark .h4-subsection,
+.dark .p-subsection,
+.dark .player-h,
+.dark .player-titles,
+.dark .player-position,
+.dark .player-number,
+.dark .player-stats,
+.dark .player-life,
+.dark .p-subsection-intro {
+  color: #FFFFFF;
+}
+
+.dark .img-section {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #FFFFFF;
+}
+
+.dark .img-section-jogadores {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #FFFFFF;
+}
+
+.dark .player-text {
+  color: #FFFFFF;
+}
+
+/* LIGHT */
+.light .h1-subsection,
+.light .h2-subsection,
+.light .h4-subsection,
+.light .p-subsection,
+.light .player-h,
+.light .player-titles,
+.light .player-position,
+.light .player-number,
+.light .player-stats,
+.light .player-life,
+.light .p-subsection-intro {
+  font-family: "Jockey One", sans-serif;
+}
+
+.light .h1-subsection,
+.light .h2-subsection,
+.light .h4-subsection,
+.light .p-subsection,
+.light .player-h,
+.light .player-titles,
+.light .player-position,
+.light .player-number,
+.light .player-stats,
+.light .player-life,
+.light .p-subsection-intro {
+  color: #000000;
+}
+
+.light .img-section {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #000000;
+}
+
+.light .img-section-jogadores {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #000000;
+}
+
+.light .player-text {
+  color: #000000;
+}
