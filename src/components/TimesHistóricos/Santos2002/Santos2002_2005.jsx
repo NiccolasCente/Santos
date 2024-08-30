@@ -26,6 +26,14 @@ import BR2002 from "../../../assets/Santos2002/titulo.jpeg";
 // Ano 2003
 import Ano2003 from "../../../assets/Santos2002/2003-poster-Santos-Libertadores-acervo.jpg";
 import Oitavas2003 from "../../../assets/Santos2002/elano2003.jpg";
+import Semi2003 from "../../../assets/Santos2002/santosSemi2003.png";
+import Final2003 from "../../../assets/Santos2002/santos_final_2003.webp";
+import BR2003 from "../../../assets/Santos2002/br_2003.jpg";
+// Ano 2004
+import BR2004 from "../../../assets/Santos2002/br_2004.jpg";
+
+
+
 
 
 const Santos2002_2005 = () => {
@@ -226,16 +234,126 @@ const Santos2002_2005 = () => {
               <AnimatedScroll animationClass="animate-hidden">
                 <p className="p-subsection">Depois de um ano de 2002 mágico, o Santos depois de décadas voltava a disputar uma Libertadores. O time de Diego e Robinho
                    continuava impressionando a todos, conseguindo 4 vitórias e 2 empates na fase de grupos.</p>
-
+              </AnimatedScroll>
+     
+              <AnimatedScroll animationClass="animate-hidden">
                 <p className="p-subsection">O primeiro desafio do time da baixada pelo mata-mata da Libertadores era contra O Nacional(URU), depois de um 4x4 no primeiro jogo
                   , em Montevidéu, e um 2x2 no Brasil, o time passava paras as quartas em uma disputa de pênalti.</p>
+              </AnimatedScroll>
 
+              <AnimatedScroll animationClass="animate-hidden">
                   <img src={Oitavas2003} className="img-section" alt="Libertadores Oitavas  2003"/>
                   <p className="p-subsection">Santos jogando contra o Nacional do Uruguai pela Oitavas de final da Libertadores</p>
+                  </AnimatedScroll>
+
+              <AnimatedScroll animationClass="animate-hidden"> 
+                  <p className="p-subsection">Pelas quartas de final, enfrentaram o Cruz Azul. O time da baixada empatou em 2x2 no México, e venceu na Vila Belmiro por 1x0, gol de Robinho.
+                  </p>
 
                   <p className="p-subsection">Pelas quartas de final, enfrentaram o Cruz Azul. O time da baixada empatou em 2x2 no México, e venceu na Vila Belmiro por 1x0, gol de Robinho.
                   </p>
-              </AnimatedScroll>
+               </AnimatedScroll>  
+
+               <AnimatedScroll animationClass="animate-hidden">
+                  <img src={Semi2003} className="img-section" alt="SemiFinal Libertadores 2003" />
+               </AnimatedScroll> 
+
+
+               <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Diego sendo caçado em campo pela SemiFinal da Libertadores 2003</p>
+                  <p className="p-subsection"> Nas semi finais, enfrentaram o Independiente Medellín(COL), com o resultado de 1x0 na Vila, e 3X2, fora.</p>
+                  <p className="p-subsection">Infelizmente, para o azar dos Meninos da Vila(que vinham fazendo história, afinal uma equipe só de garotos chegar em uma Final de Taça Libertadores, com um time QUE apesar de grande, estava há 19 anos sem disputar a competição, por si só já era um grande feito),
+                     eles pegariam o destemido BOCA JUNIORS na grande final.</p>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                 <img src={Final2003} className="img-section" alt="Final da Libertadores da América"/>
+                 <p className="p-subsection">Diego sendo marcado pelos jogadores do Boca Juniors na Final da Libertadores</p>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">As partidas da Grande Final, seriam respectivamente na La Bombonera, pelo jogo de ida, e no Morumbi, pelo jogo de volta. O Santos, que até então não 
+                    sabia o que era o gosto da derrota naquela Libertadores, conhecia pela primeira vez ela, mas infelizmente no pior momento, logo na final.
+                    <br></br>
+                    <br></br>
+                     O Boca Juniors vencia em casa por 2x0. No Morumbi, O Santos até começou melhor, mas perdeu oportunidades e viu ruir o sonho do TRI, 3x1, no Morumbi.
+                      Boca Juniors, o time que ousou tirar uma Libertadores de Diego e Robinho.</p>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <img src={BR2003} className="img-section" alt="Recomposição no BR"></img>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                 <p className="p-subsection">Robinho em um jogo Válido pelo Brasileiro 2003</p>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Depois do frustrante vice para o Boca Juniors, o Santos não teve forças para alcançar o Cruzeiro de Alex, afinal focaram na Libertadores e
+                     deixaram o Brasileiro de lado, campeonato esse que era o primeiro em pontos corridos na história.</p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">O time de Alex venceu com folga e mais uma vez o Santos amargurava um vice-campeonato. Infelizmente o grito de campeão ficava intalado mais uma vez. 
+                    Triste, pois esse em minha opinião é o melhor time da história do Santos, depois de Pelé e companhia.
+                    <br></br> <br></br>
+                     A única coisa que deixava a desejar neste elenco
+                     era a inexperiência dos jogadores, mas infelizmente este foi o fator que vez o Santos amargurar 2 vices no ano.</p>   
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <h2 className="h2-subsection"> O Bi Campeonato Brasileiro</h2>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <img src={BR2004} className="img-section" alt="Elenco de 2004" />
+                 </AnimatedScroll>
+                 
+                 <AnimatedScroll animationClass="animate-hidden"> 
+                  <p className="p-subsection">Elenco Vencedor do Brasileiro 2004</p>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Depois de uma campanha decepcionante na Libertadores 2004, sendo eliminados para o surpreendente Once Caldas
+                    (clube esse que ganhou de Santos, São Paulo e do Boca Juniors na grande final), o Santos se voltou todo para o campeonato brasileiro daquele ano.</p>
+
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+
+                 </AnimatedScroll>
+
+
+
+
+
+
+
+
             </div>
           </Col>
         </Row>
