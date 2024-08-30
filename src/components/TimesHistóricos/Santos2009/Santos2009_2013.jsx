@@ -10,6 +10,11 @@ import "../../../assets/styles/SubSection.css";
 //Componentes Imagens
 //Ano 2009
 import Neymar2009 from "../../../assets/Santos2009/Neymar-Jr-2009.webp";
+import Ganso2009 from "../../../assets/Santos2009/ganso_2009.jpg";
+import Time2009 from "../../../assets/Santos2009/elenco2009.jpg";
+import NeyR9 from "../../../assets/Santos2009/neymarronaldo.jpg";
+import NeyMadson from "../../../assets/Santos2009/NeyMadson.jpg";
+
 
 
 // Ano 2010
@@ -59,9 +64,101 @@ const Santos2009_2013 = () => {
                   <p className="p-subsection">Após os anos mágicos entre 2002 e 2005, com 2 títulos brasileiros e 1 vice-campeonato de Libertadores, o Santos passava por uma transiçaõ em 2009.</p>
                   <p className="p-subsection">A equipe apesar de bons resultados em 2006 e 2007 com o bi-campeonato do Paulista, vice-campeonato do <strong style={{color:"#007bff"}}> Brasileiro 2007 </strong>
                     e semi-final da  <strong style={{color:"#007bff"}}>Libertadores 2007</strong>,
-                    sofria uma crise dentro e fora de campo, com problemas de dinheiro e quase sendo rebaixado em 2008, a gestão de Marcelo Teixeira tinha prazo de validade para terminar.
-                    </p>
+                    sofria uma crise dentro e fora de campo, com problemas de dinheiro e quase sendo rebaixado em 2008.
+                 </p>
                 </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">A  solução que tentaram encontrar para mudar a situação do time em 2009 foi subir da base a maior promessa do mundo na época, <span>Neymar Jr</span>.</p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Outra solução encontrada foi dar mais respaldo para a até então promessa Paulo Henrique de Chagas Lima, o Ganso.</p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                   <img src={Ganso2009} className="img-section" alt="PH Ganso"/>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Ganso em um treino pelo Santos em 2009</p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection">O Ano de 2009</h2>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                   <img src={Time2009} className="img-section" alt="Elenco do Santos em 2009"/>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Elenco do Santos treinando em 2009</p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                <h2 className="h2-subsection">O Campeonato Paulista 2009</h2>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> No <strong style={{color:"#007bff"}}>Campeonato Paulista de 2009</strong>, o Santos teve uma campanha impressionante que levou a equipe até a final. No entanto,
+                      enfrentaram o Corinthians, que contava com o estrelato de Ronaldo Fenômeno. 
+                    <br></br>
+                     <br></br>
+                    Apesar de uma luta valente e uma temporada
+                     notável, o Santos acabou ficando com o vice-campeonato após perder para o Corinthians na final.
+                     </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll>
+                 <p className="p-subsection">Inclusive foi nesse jogo o lendário gol de cobertura de Ronaldo Fenômeno em plena Vila Belmiro. </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeyR9} className="img-section" alt="Neymar e R9 na final do paulista 2009"/>
+                </AnimatedScroll>
+
+                <AnimatedScroll>
+                 <p className="p-subsection">Neymar e R9 se cumprimentando na final do paulista 2009. </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll>
+                <h2 className="h2-subsection">Desafios no Campeonato Brasileiro</h2>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeyMadson} className="img-section" alt="Neymar e Madson pelo Brasileiro 2009"/>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                <p className="p-subsection">Neymar e Madson pelo Brasileiro 2009. </p>
+                </AnimatedScroll>
+
+
+                <AnimatedScroll animationClass="animate-hidden">
+                <p className="p-subsection">No Campeonato Brasileiro de 2009, o Santos enfrentou uma temporada cheia de dificuldades. A equipe passou por uma crise
+                que a colocou em risco de rebaixamento. O desempenho irregular e a pressão intensa tornaram a luta pela permanência na
+                elite do futebol brasileiro extremamente difícil. </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                <p className="p-subsection"> Neymar foi crucial para evitar o rebaixamento. Com sua habilidade e determinação, ele marcou gols e deu assistências importantes em momentos
+            decisivos, salvando o Santos da queda para a segunda divisão. Sua atuação foi um dos principais fatores para a recuperação
+            da equipe durante a temporada. </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                <p className="p-subsection">Apesar das dificuldades e da luta para evitar o rebaixamento, 2009 foi um ano revelador para o Santos. Com o talento de Neymar
+                e Ganso, a equipe mostrou seu potencial e estabeleceu uma base sólida para o futuro. Mal sabiam eles o que 2010 reservava,
+                que se mostraria um ano ainda mais emocionante e promissor para o clube. </p>
+                </AnimatedScroll>
+
+                
+                <AnimatedScroll>
+                <h2 className="h2-subsection">O Ano de 2010, o ano MÁGICO</h2>
+                </AnimatedScroll>
+
+
                 <br></br>
                 <AnimatedScroll animationClass="animate-hidden">
                   <h2 className="h2-subsection">O Surgimento de Diego, Robinho, Alex e Elano.</h2>
