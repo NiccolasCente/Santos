@@ -14,11 +14,20 @@ import Ganso2009 from "../../../assets/Santos2009/ganso_2009.jpg";
 import Time2009 from "../../../assets/Santos2009/elenco2009.jpg";
 import NeyR9 from "../../../assets/Santos2009/neymarronaldo.jpg";
 import NeyMadson from "../../../assets/Santos2009/NeyMadson.jpg";
-
-
-
+import Laor2009 from "../../../assets/Santos2009/Laor.webp";
 // Ano 2010
-import Time2010 from "../../../assets/Santos2009/timecdb2010.jpg"
+import Time2010 from "../../../assets/Santos2009/timecdb2010.jpg";
+import Neymar2010 from "../../../assets/Santos2009/Neymar2010.jpg";
+import LaorRobinho from "../../../assets/Santos2009/LaorRobinho.jpg";
+import NeymarTime from "../../../assets/Santos2009/Neymar.jpg";
+import Ganso2010 from "../../../assets/Santos2009/Ganso2010.jpg";
+import Rafael2010 from "../../../assets/Santos2009/Rafael2010.webp";
+import Andre2010 from "../../../assets/Santos2009/Andre2010.jpg";
+import Ataque2010 from "../../../assets/Santos2009/ataque2010.jpg";
+import Sansao2010 from "../../../assets/Santos2009/semipaulista.jpg";
+
+
+
 
 const Santos2009_2013 = () => {
     const { theme } = useContext(ThemeContext);
@@ -136,7 +145,7 @@ const Santos2009_2013 = () => {
 
 
                 <AnimatedScroll animationClass="animate-hidden">
-                <p className="p-subsection">No Campeonato Brasileiro de 2009, o Santos enfrentou uma temporada cheia de dificuldades. A equipe passou por uma crise
+                <p className="p-subsection">No <strong style={{color:"#007bff"}}>Campeonato Brasileiro de 2009</strong>, o Santos enfrentou uma temporada cheia de dificuldades. A equipe passou por uma crise
                 que a colocou em risco de rebaixamento. O desempenho irregular e a pressão intensa tornaram a luta pela permanência na
                 elite do futebol brasileiro extremamente difícil. </p>
                 </AnimatedScroll>
@@ -153,108 +162,183 @@ const Santos2009_2013 = () => {
                 que se mostraria um ano ainda mais emocionante e promissor para o clube. </p>
                 </AnimatedScroll>
 
+                <AnimatedScroll>
+                <h2 className="h2-subsection">Reestruturação na Diretoria</h2>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                   <img src={Laor2009} className="img-section" alt="Laor 2009"/>
+                </AnimatedScroll>
+
+                <AnimatedScroll>
+                <p className="p-subsection">Presidente eleito em 2009 foi o Laor</p>
+                </AnimatedScroll>
+
+                <AnimatedScroll>
+                <p className="p-subsection">Com as crises tanto dentro quanto fora de campo, a gestão Marcelo Teixeira não aguentou e teve que ver Laor ganhar a presidência.</p>
+                </AnimatedScroll>
+
+                <AnimatedScroll>
+                <p className="p-subsection">Algo inédito já que ele estava no poder desde os anos 90.</p>
+                </AnimatedScroll>
                 
                 <AnimatedScroll>
                 <h2 className="h2-subsection">O Ano de 2010, o ano MÁGICO</h2>
                 </AnimatedScroll>
 
-
-                <br></br>
                 <AnimatedScroll animationClass="animate-hidden">
-                  <h2 className="h2-subsection">O Surgimento de Diego, Robinho, Alex e Elano.</h2>
-                  <p className="p-subsection-intro">
-                    Com graves problemas financeiros e sem nenhuma alternativa para contratar jogadores, eles tiveram de ir para as categorias de base. Emerson Leão, técnico recém-contratado e com um fraco trabalho tanto na seleção brasileira e no Juventude, viu nos garotos da base, uma esperança, esses garotos eram:
+                   <img src={Neymar2010} className="img-section" alt="Neymar 2010"/>
+                </AnimatedScroll>
+
+                <AnimatedScroll>
+                <p className="p-subsection">Neymar pela final do Campeonato Paulista</p>
+                </AnimatedScroll>
+
+                <AnimatedScroll>
+                <p className="p-subsection">Como dito anteriormente, Laor ganhou a presidência e desde cedo queria mostrar negócio e logo de cara contratou por empréstimo
+                    Robinho, que vinha do Manchester City, da Inglaterra e precisava performar para ser convocado para a <strong style={{color:"#007bff"}}>Copa do Mundo de 2010</strong>.
+                </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                   <img src={LaorRobinho} className="img-section" alt="Laor e Robinho"/>
+                </AnimatedScroll>
+
+                <AnimatedScroll>
+                <p className="p-subsection">Laor e Robinho em 2010</p>
+                </AnimatedScroll>
+
+                <AnimatedScroll>
+                <p className="p-subsection">Além de Robinho, foi contratado o volante Arouca, o zagueiro Durval, a volta por empréstimo de Wesley e subiram da base daquele ano:
+                    Rafael Cabral e Alan Patrick.  </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll>
+                <p className="p-subsection"> Para comandar essa verdadeira seleção cheia de jovens promessas, foi contratado o técnico Dorival Júnior, que
+                    tinha acabado de subir com o Vasco para a série A. </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll>
+                <p className="p-subsection"> Ninguém esperava que um punhado de jovens talentosos e jogadores experientes praticariam o esporto mais vistoso 
+                    do futebol brasileiro no século! E esses jogadores eram: </p>
+                </AnimatedScroll>
+                <br></br>
+        
+                <AnimatedScroll animationClass="animate-hidden">
+                  <Player
+                    image={NeymarTime}
+                    name="Neymar Jr."
+                    titles="Campeonato Paulista 2010, 2011 e 2012"
+                    titles2 = "Copa do Brasil 2010"
+                    titles3 ="Copa Libertadores da América 2011"
+                    titles4 ="Recopa Sul-Americana 2012"
+                    position="Ponta-Esquerda"
+                    number="11"
+                    stats="Partidas: 230 | Gols: 138"
+                    life={[
+                        "Neymar Jr. é um dos jogadores mais talentosos e habilidosos da sua geração. Com uma incrível capacidade de driblar adversários e uma precisão impressionante nos chutes, ajudando-o a conquistar diversos títulos importantes, incluindo a Copa do Brasil e Copa Libertadores da América.",
+                        " Em 2013, ele encerrou sua trajetória no Santos e transferiu-se para o Barcelona por 88 milhões de euros. No Santos, Neymar tornou-se um dos maiores ídolos da história do clube, deixando uma marca indelével no coração dos torcedores."
+                      ]}          
+                  />
+                  </AnimatedScroll>
+  
+                <AnimatedScroll animationClass="animate-hidden">
+                  <Player
+                    image ={Ganso2010}
+                    name="PH Ganso"
+                    titles="Campeonato Paulista 2010, 2011 e 2012"
+                    titles2 = "Copa do Brasil 2010"
+                    titles3 ="Copa Libertadores da América 2011"
+                    titles4 ="Recopa Sul-Americana 2012"
+                    position="Meio-Campo"
+                    number="10"
+                    stats="Partidas: 162 | Gols: 36"
+                    life={[
+                      "Paulo Henrique Ganso, conhecido por sua visão de jogo excepcional e habilidade de criar jogadas com precisão, estreou no time principal do Santos em 2008. Com sua técnica refinada e capacidade de controlar o meio-campo, foi fundamental para as conquistas do Campeonato Paulista e da Copa Libertadores da América.",
+                      "Após não cumprir as expectativas de ser um Craque e ir para a Europa, Ganso foi transferido para o São Paulo em 2012 por 8 milhões de euros, onde continuou sua carreira de destaque."
+                    ]}
+                  />
+                  </AnimatedScroll>
+  
+                  <AnimatedScroll animationClass="animate-hidden">
+                  <Player
+                    image ={Rafael2010}
+                    name="Rafael Cabral"
+                    titles="Campeonato Paulista 2010, 2011 e 2012"
+                    titles2 = "Copa do Brasil 2010"
+                    titles3 ="Copa Libertadores da América 2011"
+                    titles4 ="Recopa Sul-Americana 2012"
+                    position="Goleiro"
+                    number="6"
+                    stats="Partidas: 190"
+                    life={[
+                        "Rafael Cabral foi um goleiro crucial para o Santos FC, conhecido por suas excelentes habilidades de reação e segurança nos pênaltis. Iniciou sua carreira profissional no clube e rapidamente se destacou com suas atuações consistentes e importantes, ajudando o time a conquistar títulos.",
+                        "Durante sua passagem pelo Santos, Rafael se consolidou como um dos melhores goleiros do país. Em 2013, após sua notável contribuição para o sucesso do clube, transferiu-se para o Napoli por 5 milhões de euros em uma negociação que marcou o início de uma nova fase em sua carreira europeia."
+                      ]}
+                  />
+                  </AnimatedScroll>
+
+  
+                  <AnimatedScroll animationClass="animate-hidden">
+                  <Player
+                   image={Andre2010}
+                   name="André"
+                   titles="Campeonato Paulista 2010 e 2012"
+                   titles2="Copa do Brasil 2010"
+                   titles4="Recopa Sul-Americana 2012"
+                   position="Centroavante"
+                   number="9"
+                   stats="Partidas: 94 | Gols: 46"
+                   life={[
+                         "André, fez sua estreia no time principal do Santos em 2009, vindo da base do clube. Com seu faro de gol afiado e presença de área, rapidamente se tornou um atacante fundamental para o time. Sua habilidade em finalizar e contribuir com gols importantes ajudou o Santos a conquistar vários títulos durante sua passagem.",
+                         "Durante sua trajetória no Santos, André se destacou como um dos principais artilheiros do time. Em 2010, após uma série de boas atuações, transferiu-se para o Dínamo de Kiev, porém sem sucesso lá, voltou para o clube em 2012, mas sem jogar tão bem quanto em 2010."
+                      ]}
+                    />
+                  </AnimatedScroll>
+  
+                  <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection">A Campanha do Santos em 2010</h2>
+                  </AnimatedScroll>
+                  <AnimatedScroll animationClass="animate-hidden">
+                  <img src={Ataque2010} className="img-section" alt="Quarteto mágico do Santos em 2010" /> 
+                  <p className="p-subsection"> O Quarteto mágico do Santos em 2010</p>
+                </AnimatedScroll>
+  
+                <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Agora que pincelamos as principais estrelas do time naquele ano, iremos falar um pouco sobre como foi o ano do Santos em 2010. Foi neste <strong style={{color:"#007bff"}}>Campeonato Paulista</strong> que a magia começou.</p>
+                  <p className="p-subsection">O Santos com muita folga foi o líder do campeonato, com 15 vitórias, 2 empates e 2 derrotas em 19 jogos.</p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">O grande diferencial desse time eram o futebol rápido e ofensivo, esse time tinha uma incrível de 3,21 gols por jogo. O peixão marcou 61 gols nesse torneio.</p>
+                  <p className="p-subsection">As partidas mais memoráveis com certeza são contra o Ituano em que o Santos ganhou de 9x1, contra o Prudente que aplicou um 5x0, e
+                    o 6x3 contra o Bragantino. Era show toda partida.
                   </p>
                 </AnimatedScroll>
+
                 <AnimatedScroll animationClass="animate-hidden">
-                  <Player
-                    
-                    name="Diego Ribas"
-                    titles="Campeonato Brasileiro 2002 e Campeonato Brasileiro 2004"
-                    position="Meio-campista"
-                    number="10"
-                    stats="Partidas: 133 | Gols: 38"
-                    life={[
-                      "Um habilidoso meia que chutava muito bem de fora da área e armava muito bem o jogo, além de dribles e muito velocidade, estreou no profissional com apenas de 16 anos e com a 10 do Rei Pelé.",
-                      "Encerrou sua passagem pelo Santos em 2004, indo para o Porto por 8 milhões de euros."
-                    ]}
-                  />
-                  </AnimatedScroll>
-  
-                <AnimatedScroll animationClass="animate-hidden">
-                  <Player
-                    name="Robinho"
-                    titles="Campeonato Brasileiro 2002 e Campeonato Brasileiro 2004"
-                    position="Segundo-Atacante"
-                    number="7"
-                    stats="Partidas: 182 | Gols: 81"
-                    life={[
-                      "Conhecido por sua habilidade em driblar adversários com facilidade. Estreou no time principal em 2002 e teve papel fundamental na conquista do título do Campeonato Brasileiro daquele ano.",
-                      "Após seu sucesso no Santos, Robinho foi transferido para o Real Madrid em 2005 por 24 milhões de euros, onde continuou sua carreira de destaque no futebol internacional."
-                    ]}
-                  />
-                  </AnimatedScroll>
-  
-                  <AnimatedScroll animationClass="animate-hidden">
-                  <Player
-                    name="Alex"
-                    titles="Campeonato Brasileiro 2002 e Campeonato Brasileiro 2004"
-                    position="Zagueiro"
-                    number="6"
-                    stats="Partidas: 102 | Gols: 20"
-                    life={[
-                      "Alex foi uma peça fundamental na defesa do Santos, com sua habilidade em interceptar bolas,  marcar gols de falta, principalmente em jogadas de bola parada ajudaram o Peixe a ganhar os títulos brasileiros de 2002 e 2004 .",
-                      "Após sua passagem vitoriosa pelo Santos, Alex se transferiu para o Chelsea em 2004 por 12 milhões de euros."
-                    ]}
-                  />
-                  </AnimatedScroll>
-  
-                  <AnimatedScroll animationClass="animate-hidden">
-                  <Player
-                    name="Elano"
-                    titles="Campeonato Brasileiro 2002 e Campeonato Brasileiro 2004"
-                    position="Meia-Direita"
-                    number="11"
-                    stats="Partidas: 212 | Gols: 52"
-                    life={[
-                      "Elano foi um meio-campista versátil e dinâmico, conhecido por sua capacidade de marcar gols de longa distância, consistência, consiência tática, qualidade defensiva.  ",
-                      "Em 2005, após sua excelente performance pelo Santos, Elano foi vendido ao Shakhtar Donetsk da Ucrânia por 7,6 milhões de euros, onde continuou a brilhar no futebol europeu."
-                    ]}
-                  />
-                  </AnimatedScroll>
-  
-                  <AnimatedScroll animationClass="animate-hidden">
-                    <h2 className="h2-subsection">A Campanha do Santos em 2002</h2>
-                  </AnimatedScroll>
-                  <AnimatedScroll animationClass="animate-hidden">
-                  {/*<img src={Diego2} className="img-section" alt="Diego Comemorando 2002" /> */}
-                  <p className="p-subsection">Diego Comemorando gol contra o São Paulo pelo mata-mata no Morumbi!</p>
+                  <p className="p-subsection">Embalados com o desempenho da fase de grupos, o peixão enfrentou o São Paulo de Rogério Ceni nas semi-finais e foi nesta partida
+                    que a paternidade de Neymar contra o SP começou, com direito a famosa paradinha dele contra o goleiro tricolor. 
+                    <br></br>
+                    <br></br>
+                    Primeiro Jogo no Morumbi vitória por 3x2 
+                    e na Vila Belmiro vitória por 3x0, com doblete de Neymar e um de Ganso. </p>
                 </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                  <p className="p-subsection">Agora que pincelamos as principais estrelas do time naquele ano, iremos falar um pouco sobre como foi o ano do Santos em 2002. Depois de um torneio RIO-SP fraco, o Santos
-                    era forte candidato ao rebaixamento, tanto pelos graves problemas financeiros e por metade do time titular ser de garotos da base com menos de 19 anos.</p>
-                  <p className="p-subsection">O Santos fez um campeonato brasileiro apenas razoável e se classificou para o mata-mata graças a outros resultados, fazendo com que assim o Santos fosse o último da lista para jogar o mata-mata, e logo de cara, pegaria o São Paulo na Vila Belmiro.</p>
+                  <img src={Sansao2010} className="img-section" alt="Sansão na Vila 2010" />
+                  <p className="p-subsection">Neymar escapando de falta do jogador São Paulino</p>
                 </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                  {/*<img src={Saonsao} className="img-section" alt="Sansão na Vila" />*/}
-                  <p className="p-subsection">Robinho escapando de falta do jogador São Paulino</p>
-                </AnimatedScroll>
-  
-                <AnimatedScroll animationClass="animate-hidden">
-                  <p className="p-subsection">No primeiro jogo na Vila Belmiro, o Santos mostrou toda a sua capacidade ofensiva e, com gols de Alberto, 
-                    Robinho e Diego, ganhou por 3x1, precisando apenas segurar o resultado no Morumbi. <br></br> <br></br>Mas o Santos não queria apenas segurar o resultado, queria mais,
-                     e com mais um show de Diego e Robinho, venceu por 2x1. Essa classificação impressionou a todos na época, já que o São Paulo era, disparado,
-                      o melhor time do Brasil naquele momento</p>
+                  <p className="p-subsection">No dia 25 de Abril de 2010, o Santos enfrentava o surpreedente Santo André pelo título.</p>
                 </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden">
                    {/*<img src={Diego3} className="img-section" alt="Diego provocando SP"/>*/}
                   <p className="p-subsection">Clássica comemoração de Diego Ribas contra o São Paulo</p>
                 </AnimatedScroll>
-                <br></br>
-  
+
                 <AnimatedScroll animationClass="animate-hidden">
                   <p className="p-subsection">O próximo desafio do time da baixada era o Grêmio e com mais um show de futebol, ganharam deles com sobras na Vila Belmiro
                      por 3x0 e com mais um show de Robinho, porém no jogo de volta perderam por 1x0, mas já não importava mais, pois no placar agregado ficaria 3x1,

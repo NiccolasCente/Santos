@@ -4,7 +4,7 @@ import React from "react";
 //Componentes CSS
 import "../Player/Player.css";
 
-const Player = ({ image, name, titles, position, number, stats, life }) => {
+const Player = ({ image, name, titles, titles2, titles3, titles4,position, number, stats, life }) => {
   return (
     <ul className="player-list">
       <li className="player-info">
@@ -14,6 +14,10 @@ const Player = ({ image, name, titles, position, number, stats, life }) => {
         <div className="player-text">
           <h3 className="player-h">{name}</h3>
           <h4 className="player-titles">{titles}</h4>
+          <h4 className="player-titles">{titles2}</h4>
+          <h4 className="player-titles">{titles3}</h4>
+          <h4 className="player-titles">{titles4}</h4>
+
           <div className="player-details">
             <div className="player-position">{position}</div>
             <div className="player-number">Número: {number}</div>
