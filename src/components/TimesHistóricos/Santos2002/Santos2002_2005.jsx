@@ -1,12 +1,10 @@
-//Componetnes React
+//Componentes React
 import React, { useContext } from "react";
 import { ThemeContext } from "../../common/ThemeProvider/ThemeContext";
 import { Container, Row, Col } from "react-bootstrap";
 import AnimatedScroll from "../../common/AnimatedScroll/AnimatedScroll";
 import Player from "../../common/Player/Player"; 
-
 // Componentes CSS
-import "../Santos2002/Santos2002.css";
 import "../../../assets/styles/SubSection.css";
 
 // Componentes Imagens
@@ -216,7 +214,8 @@ const Santos2002_2005 = () => {
                     (outro garoto da base) pudesse marcar aos 43 minutos do segundo tempo: Santos 2x2 Corinthians.
                      <br></br> <br></br>
                     No entanto, Robinho queria mais, e depois de mais uma jogada espetacular, tocou para Léo que, em um chute absurdo, fez com que o Santos fosse
-                     Campeão Brasileiro de 2002, com um placar agregado de 5x2. Com muitas doses de drama, o Brasil tinha um novo campeão nacional!
+                    <strong style={{color: "#007bff"}}> Campeão Brasileiro de 2002</strong>, com um placar agregado de 5x2. Com muitas doses de drama, o Brasil tinha um
+                     novo campeão nacional!
                 </p>
               </AnimatedScroll>
 
@@ -253,9 +252,6 @@ const Santos2002_2005 = () => {
               <AnimatedScroll animationClass="animate-hidden"> 
                   <p className="p-subsection">Pelas quartas de final, enfrentaram o Cruz Azul. O time da baixada empatou em 2x2 no México, e venceu na Vila Belmiro por 1x0, gol de Robinho.
                   </p>
-
-                  <p className="p-subsection">Pelas quartas de final, enfrentaram o Cruz Azul. O time da baixada empatou em 2x2 no México, e venceu na Vila Belmiro por 1x0, gol de Robinho.
-                  </p>
                </AnimatedScroll>  
 
                <AnimatedScroll animationClass="animate-hidden">
@@ -272,7 +268,7 @@ const Santos2002_2005 = () => {
 
                  <AnimatedScroll animationClass="animate-hidden">
                  <img src={Final2003} className="img-section" alt="Final da Libertadores da América"/>
-                 <p className="p-subsection">Diego sendo marcado pelos jogadores do Boca Juniors na Final da Libertadores</p>
+                 <p className="p-subsection">Diego em campo pela Final da Libertadores 2003</p>
                  </AnimatedScroll>
 
                  <AnimatedScroll animationClass="animate-hidden">
@@ -282,6 +278,10 @@ const Santos2002_2005 = () => {
                     <br></br>
                      O Boca Juniors vencia em casa por 2x0. No Morumbi, O Santos até começou melhor, mas perdeu oportunidades e viu ruir o sonho do TRI, 3x1, no Morumbi.
                       Boca Juniors, o time que ousou tirar uma Libertadores de Diego e Robinho.</p>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <h2 className="h2-subsection">A Tentativa de Recomposição no Brasileirão</h2>
                  </AnimatedScroll>
 
                  <AnimatedScroll animationClass="animate-hidden">
@@ -440,7 +440,8 @@ const Santos2002_2005 = () => {
                  </AnimatedScroll>
 
                  <AnimatedScroll animationClass="animate-hidden">
-                  <p className="p-subsection">Depois de mais um caneco levantado, convocações constantes e cada vez melhores era impossível para o Santos segurar sua maior joia, 
+                  <p className="p-subsection">Depois de mais um caneco levantado, convocações constantes para a seleção brasileira e  atuações cada vez melhores era 
+                    impossível para o Santos segurar sua maior joia, 
                     Robinho. Depois de muitas especulações, 
                     o menino da vila foi para o Real Madrid ser o camisa 10.</p>
                  </AnimatedScroll>
@@ -451,8 +452,7 @@ const Santos2002_2005 = () => {
                   O legado que eles deixaram foram o da alegria e ousadia que tanto faltava no Santos.
                   <br></br>
                   <br></br>
-                   O peixe só não foi campeão também em 2003, 
-                  pois focou na Libertadores. Uma geração gigante em termos de titulos e futebol bem jogado. Se não existisse Diego e Robinho,
+                    Uma geração gigante em termos de titulos e futebol bem jogado. Se não existisse Diego e Robinho,
                    possivelmente nunca veriamos Neymar e Ganso.
                   </p>
                  </AnimatedScroll>

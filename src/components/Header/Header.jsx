@@ -19,7 +19,7 @@ const Header = () => {
   const timesHistoricosItems = [
     { path: "/times-historicos/santos-1958-1974", label: "Santos 1958 - 1974" },
     { path: "/times-historicos/meninos-da-vila-2002-2005", label: "Santos 2002-2005" },
-    { path: "/times-historicos/meninos-da-vila-2010-2012", label: "Santos 2010-2012" },
+    { path: "/times-historicos/meninos-da-vila-2009-2013", label: "Santos 2009-2013" },
   ];
 
   const jogadoresHistoricosItems = [
