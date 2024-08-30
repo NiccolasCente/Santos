@@ -31,10 +31,14 @@ import Final2003 from "../../../assets/Santos2002/santos_final_2003.webp";
 import BR2003 from "../../../assets/Santos2002/br_2003.jpg";
 // Ano 2004
 import BR2004 from "../../../assets/Santos2002/br_2004.jpg";
-
-
-
-
+import Robinho2004 from "../../../assets/Santos2002/robinho2004.jpg";
+import Ricardinho2004 from "../../../assets/Santos2002/ricardinho.jpg";
+import Basilio2004 from "../../../assets/Santos2002/basilio.jpg";
+import Deivid2004  from "../../../assets/Santos2002/deivid.jpg";
+import Titulo2004 from "../../../assets/Santos2002/brasileiro2004titulo.jpg";
+// Ano 2005
+import Robinho2005 from "../../../assets/Santos2002/robinho2005.jpg";
+import DiegoRobinho from "../../../assets/Santos2002/DiegoRobinho.jpg"
 
 const Santos2002_2005 = () => {
   const { theme } = useContext(ThemeContext);
@@ -314,46 +318,152 @@ const Santos2002_2005 = () => {
                  </AnimatedScroll>
 
                  <AnimatedScroll animationClass="animate-hidden">
-                  <p className="p-subsection">Depois de uma campanha decepcionante na Libertadores 2004, sendo eliminados para o surpreendente Once Caldas
+                  <p className="p-subsection">O ótimo trabalho feito pelo técnico Emerson Leão nos anos de 2002 e 2003 começou a desmoronar em 2004, 
+                    demonstrando declínios severos logo no <strong style={{color: "#007bff"}}>Campeonato Paulista de 2004</strong>, onde o time tomou 4 x 0 do São Caetano 
+                    em plena Vila Belmiro, em uma semifinal do Campeonato Paulista.
+                 </p>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">A isso sucedeu uma crise de relacionamentos, que explodiu na derrota por 4 a 2 contra a LDU, nas oitavas de final da 
+                    Libertadores. O técnico, em comum acordo, se desligou do time. O técnico Vanderlei Luxemburgo foi contratado para apagar o incêndio deixado 
+                    por Leão e fazer o time voltar a desempenhar bem.
+                 </p>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animation-hidden">
+                  <p className="p-subsection">Até conseguiram reverter o placar e se classificar para as quartas de final, porém, 
+                    o favorito Santos perdeu o confronto para o surpreendente Once Caldas!
+                  </p>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Depois de uma campanha decepcionante na <strong style={{color:"#007bff"}}>Libertadores 2004</strong>, sendo eliminados para o surpreendente Once Caldas
                     (clube esse que ganhou de Santos, São Paulo e do Boca Juniors na grande final), o Santos se voltou todo para o campeonato brasileiro daquele ano.</p>
 
                  </AnimatedScroll>
 
                  <AnimatedScroll animationClass="animate-hidden">
-
+                  <img src={Robinho2004} className="img-section" alt="Robinho 2004"></img>
                  </AnimatedScroll>
 
                  <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Robinho comemorando um gol</p>
 
+                 </AnimatedScroll>
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Robinho tinha apenas um defeito entre 2002-2003: não era finalizador. O menino da vila construía jogadas maravilhosas, 
+                    costurava defesas inteiras, mas pecava na finalização.
+                    <br></br>
+                    <br></br>
+                    Este foi exatamente o ponto que Vanderlei Luxemburgo corrigiu, Robinho naquele ano mais uma vez seria protagonista, 
+                    porém marcando muito mais gols.
+                    </p>
                  </AnimatedScroll>
 
                  <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Como dito anteriormente o Santos foi eliminado pelo Once Caldas, e se voltou completamente para o Brasileiro daquele ano
+                     e infelizmente com algumas peças a menos como: Diego Ribas, Alex e Paulo Almeida, que tinham sido vendidos logo após a eliminação. 
+                     <br></br>
+                     <br></br>
+                     Isso fez com que o time no começo tivesse alguns problemas na defesa e na criação, porém o técnico Luxemburgo arrumou isso fazendo um jogo coletivo
+                      e rápido.</p>
 
+                 </AnimatedScroll>
+                 <AnimatedScroll animationClass="animate-hidden">
+                 <img src={Ricardinho2004} className="img-section" alt="Ricardinho"/>
                  </AnimatedScroll>
 
                  <AnimatedScroll animationClass="animate-hidden">
-
+                  <p className="p-subsection">Ricadinho, contratação de 2004 para substituir o Meia Diego</p>
                  </AnimatedScroll>
 
                  <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">As principais contratações desse ano para substituir as peças perdidas foram: Deivid, Basílio e Ricardinho.
+                    <br></br>
+                    Deivid vindo por empréstimo da França, Basílio veio de um time da série B, ambos compondo um ótimo ataque na ausência de Robinho, e por último
+                    Ricardinho, o meia cobrador de faltas que veio da Inglaterra!
+                  </p>
 
+                 </AnimatedScroll>
+                 <img src={Basilio2004} className="img-section" alt="Basilio"/>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                 <p className="p-subsection">Basílio, o amuleto da Vila, mesmo sendo reserva marcou 15 gols no campeonato!</p>
                  </AnimatedScroll>
 
                  <AnimatedScroll animationClass="animate-hidden">
-
+                 <img src={Deivid2004} className="img-section" alt="Deivid"/>
                  </AnimatedScroll>
 
                  <AnimatedScroll animationClass="animate-hidden">
-
+                 <p className="p-subsection">Deivid comemorando um gol pelo Brasileiro 2004</p>
                  </AnimatedScroll>
 
+                 <AnimatedScroll animationClass="animate-hidden">
+                 <p className="p-subsection">Deivid, o parceiro de ataque de Robinho, foi artilheiro do time ao lado do próprio com 22 gols no campeonato!
+                  Deivid teve 9 gols mal anulados neste campeonato e mesmo assim foi artilheiro do time!
+                 </p>
 
+                </AnimatedScroll>
 
+                <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Até a 33.º rodada, o principal rival do Santos era o Athlético-PR que estava na liderança brigando para ganhar o título. 
+                    Athlético-PR esse que há alguns anos tinha sido Campeão<strong style={{color:"#007bff"}}> Brasileiro de 2001</strong>, e depois vice da  
+                    <strong style={{color:"#007bff"}}> Libertadores 2005</strong>.
+                  </p>
+                </AnimatedScroll>
+                <p className="p-subsection">O Santos lutou pelo titulo até o último jogo, que foi contra o Vasco, o Santos ganhou por 2x1, mais uma vez o Santos levantava um caneco para a 
+                  alegria da torcida, com Robinho e Deivid tendo anotados 22 gols cada, apesar dos problemas de arbitragem, sequestro da mãe de Robinho e fora da Vila Belmiro,
+                   o Santos ganhava seu 
+                  oitavo título brasileiro.</p>
+                 <AnimatedScroll animationClass="animate-hidden">
+                 <img src={Titulo2004} className="img-section" alt="Titulo 2004"/>
+                 </AnimatedScroll>
 
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Elenco do Santos comemorando mais um caneco levantado</p>
+                 </AnimatedScroll>
 
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <h2 className="h2-subsection"> 2005, O fim da Era Diego e Robinho</h2>
 
+                 </AnimatedScroll>
+                 
+                 <AnimatedScroll animationClass="animate-hidden">
+                 <img src={Robinho2005} className="img-section" alt="Robinho apresentação real madrid"/>
+                 </AnimatedScroll>
 
+                 <AnimatedScroll animationClass="animate-hidden">
+                 <p className="p-subsection"> Robinho em sua apresentação no Real Madrid
+                </p>
+                 </AnimatedScroll>
 
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Depois de mais um caneco levantado, convocações constantes e cada vez melhores era impossível para o Santos segurar sua maior joia, 
+                    Robinho. Depois de muitas especulações, 
+                    o menino da vila foi para o Real Madrid ser o camisa 10.</p>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">
+                  Apesar de Diego e Robinho não terem correspondido as expectativas de serem os melhores jogadores do mundo, tiveram carreiras bem sólidas no Brasil e Europa. 
+                  O legado que eles deixaram foram o da alegria e ousadia que tanto faltava no Santos.
+                  <br></br>
+                  <br></br>
+                   O peixe só não foi campeão também em 2003, 
+                  pois focou na Libertadores. Uma geração gigante em termos de titulos e futebol bem jogado. Se não existisse Diego e Robinho,
+                   possivelmente nunca veriamos Neymar e Ganso.
+                  </p>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <img src={DiegoRobinho} className="img-section" alt="Diego e Robinho em treino pelo Santos"/>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Diego e Robinho em um treino pelo Santos</p>
+                 </AnimatedScroll>
             </div>
           </Col>
         </Row>
