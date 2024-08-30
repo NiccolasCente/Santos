@@ -110,11 +110,11 @@ const Santos2009_2013 = () => {
                 </AnimatedScroll>
 
                 <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection"> No <strong style={{color:"#007bff"}}>Campeonato Paulista de 2009</strong>, o Santos teve uma campanha impressionante que levou a equipe até a final. No entanto,
+                    <p className="p-subsection"> No <strong style={{color:"#007bff"}}>Campeonato Paulista de 2009</strong>, o Santos teve uma campanha impressionante (já que tinha um time limitado), indo até a final. No entanto,
                       enfrentaram o Corinthians, que contava com o estrelato de Ronaldo Fenômeno. 
                     <br></br>
                      <br></br>
-                    Apesar de uma luta valente e uma temporada
+                    Apesar de uma luta valente e uma campeonato
                      notável, o Santos acabou ficando com o vice-campeonato após perder para o Corinthians na final.
                      </p>
                 </AnimatedScroll>
@@ -162,7 +162,7 @@ const Santos2009_2013 = () => {
                 que se mostraria um ano ainda mais emocionante e promissor para o clube. </p>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
+                <AnimatedScroll  animationClass="animate-hidden">
                 <h2 className="h2-subsection">Reestruturação na Diretoria</h2>
                 </AnimatedScroll>
 
@@ -170,19 +170,19 @@ const Santos2009_2013 = () => {
                    <img src={Laor2009} className="img-section" alt="Laor 2009"/>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
+                <AnimatedScroll  animationClass="animate-hidden">
                 <p className="p-subsection">Presidente eleito em 2009 foi o Laor</p>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
+                <AnimatedScroll  animationClass="animate-hidden">
                 <p className="p-subsection">Com as crises tanto dentro quanto fora de campo, a gestão Marcelo Teixeira não aguentou e teve que ver Laor ganhar a presidência.</p>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
+                <AnimatedScroll  animationClass="animate-hidden">
                 <p className="p-subsection">Algo inédito já que ele estava no poder desde os anos 90.</p>
                 </AnimatedScroll>
                 
-                <AnimatedScroll>
+                <AnimatedScroll  animationClass="animate-hidden">
                 <h2 className="h2-subsection">O Ano de 2010, o ano MÁGICO</h2>
                 </AnimatedScroll>
 
@@ -190,11 +190,11 @@ const Santos2009_2013 = () => {
                    <img src={Neymar2010} className="img-section" alt="Neymar 2010"/>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
+                <AnimatedScroll  animationClass="animate-hidden">
                 <p className="p-subsection">Neymar pela final do Campeonato Paulista</p>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
+                <AnimatedScroll  animationClass="animate-hidden">
                 <p className="p-subsection">Como dito anteriormente, Laor ganhou a presidência e desde cedo queria mostrar negócio e logo de cara contratou por empréstimo
                     Robinho, que vinha do Manchester City, da Inglaterra e precisava performar para ser convocado para a <strong style={{color:"#007bff"}}>Copa do Mundo de 2010</strong>.
                 </p>
@@ -204,22 +204,22 @@ const Santos2009_2013 = () => {
                    <img src={LaorRobinho} className="img-section" alt="Laor e Robinho"/>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
+                <AnimatedScroll  animationClass="animate-hidden">
                 <p className="p-subsection">Laor e Robinho em 2010</p>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
+                <AnimatedScroll  animationClass="animate-hidden">
                 <p className="p-subsection">Além de Robinho, foi contratado o volante Arouca, o zagueiro Durval, a volta por empréstimo de Wesley e subiram da base daquele ano:
                     Rafael Cabral e Alan Patrick.  </p>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
+                <AnimatedScroll  animationClass="animate-hidden">
                 <p className="p-subsection"> Para comandar essa verdadeira seleção cheia de jovens promessas, foi contratado o técnico Dorival Júnior, que
                     tinha acabado de subir com o Vasco para a série A. </p>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
-                <p className="p-subsection"> Ninguém esperava que um punhado de jovens talentosos e jogadores experientes praticariam o esporto mais vistoso 
+                <AnimatedScroll  animationClass="animate-hidden">
+                <p className="p-subsection"> Ninguém esperava que um punhado de jovens talentosos e jogadores experientes praticariam o esporte mais vistoso 
                     do futebol brasileiro no século! E esses jogadores eram: </p>
                 </AnimatedScroll>
                 <br></br>
