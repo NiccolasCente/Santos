@@ -25,15 +25,17 @@ import Rafael2010 from "../../../assets/Santos2009/Rafael2010.webp";
 import Andre2010 from "../../../assets/Santos2009/Andre2010.jpg";
 import Ataque2010 from "../../../assets/Santos2009/ataque2010.jpg";
 import Sansao2010 from "../../../assets/Santos2009/semipaulista.jpg";
-
-
-
+import Wesley from "../../../assets/Santos2009/wesley.jpg";
+import NeyFinalPaulista2010 from "../../../assets/Santos2009/NeyFinalPaulista2010.jpg";
+import TaçaPaulista2010 from "../../../assets/Santos2009/taçaPaulista2010.jpg";
+import Danca from "../../../assets/Santos2009/danca.jpg";
+import SanGreCDB from "../../../assets/Santos2009/sangrecbd.jpg";
 
 const Santos2009_2013 = () => {
     const { theme } = useContext(ThemeContext);
   
     return (
-      <section className={`meninos-da-vila-2002-2005 ${theme}`}>
+      <section className={`meninos-da-vila-2009-2013 ${theme}`}>
         <Container>
           <Row className="justify-content-center">
             <Col xs={12} md={8} lg={6}>
@@ -45,7 +47,7 @@ const Santos2009_2013 = () => {
                    <img src={Time2010} className="img-section" alt="Time de 2010" /> 
                 </AnimatedScroll>
                 <AnimatedScroll animationClass="animate-hidden">
-                  <p className="p-subsection">Escalação do time titular na final da Copa do Brasil 2010!</p>
+                  <p className="p-subsection">Escalação do time titular na final do Campeonato Paulista 2010!</p>
                 </AnimatedScroll>
                 <AnimatedScroll animationClass="animate-hidden">
                   <h4 className="h4-subsection">Títulos Ganhos:</h4>
@@ -65,12 +67,12 @@ const Santos2009_2013 = () => {
                    <img src={Neymar2009} className="img-section" alt="Neymar o novo Raio"/>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
+                <AnimatedScroll animationClass="animate-hidden">
                  <p className="p-subsection">Neymar, o maior jogador do Santos no Século XXI</p>
                 </AnimatedScroll>
 
                 <AnimatedScroll animationClass="animate-hidden">
-                  <p className="p-subsection">Após os anos mágicos entre 2002 e 2005, com 2 títulos brasileiros e 1 vice-campeonato de Libertadores, o Santos passava por uma transiçaõ em 2009.</p>
+                  <p className="p-subsection">Após os anos mágicos entre 2002 e 2005, com 2 títulos brasileiros e 1 vice-campeonato de Libertadores, o Santos passava por uma transição em 2009.</p>
                   <p className="p-subsection">A equipe apesar de bons resultados em 2006 e 2007 com o bi-campeonato do Paulista, vice-campeonato do <strong style={{color:"#007bff"}}> Brasileiro 2007 </strong>
                     e semi-final da  <strong style={{color:"#007bff"}}>Libertadores 2007</strong>,
                     sofria uma crise dentro e fora de campo, com problemas de dinheiro e quase sendo rebaixado em 2008.
@@ -127,11 +129,11 @@ const Santos2009_2013 = () => {
                    <img src={NeyR9} className="img-section" alt="Neymar e R9 na final do paulista 2009"/>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
+                <AnimatedScroll animationClass="animate-hidden">
                  <p className="p-subsection">Neymar e R9 se cumprimentando na final do paulista 2009. </p>
                 </AnimatedScroll>
 
-                <AnimatedScroll>
+                <AnimatedScroll animationClass="animate-hidden">
                 <h2 className="h2-subsection">Desafios no Campeonato Brasileiro</h2>
                 </AnimatedScroll>
 
@@ -185,6 +187,7 @@ const Santos2009_2013 = () => {
                 <AnimatedScroll  animationClass="animate-hidden">
                 <h2 className="h2-subsection">O Ano de 2010, o ano MÁGICO</h2>
                 </AnimatedScroll>
+                
 
                 <AnimatedScroll animationClass="animate-hidden">
                    <img src={Neymar2010} className="img-section" alt="Neymar 2010"/>
@@ -283,7 +286,7 @@ const Santos2009_2013 = () => {
                   <Player
                    image={Andre2010}
                    name="André"
-                   titles="Campeonato Paulista 2010 e 2012"
+                   titles="Campeonato Paulista 2010"
                    titles2="Copa do Brasil 2010"
                    titles4="Recopa Sul-Americana 2012"
                    position="Centroavante"
@@ -299,6 +302,11 @@ const Santos2009_2013 = () => {
                   <AnimatedScroll animationClass="animate-hidden">
                     <h2 className="h2-subsection">A Campanha do Santos em 2010</h2>
                   </AnimatedScroll>
+                  <br></br>
+                  <AnimatedScroll animationClass="animate-hidden">
+                    <h3 className="p-subsection">O Campeonato Paulista 2010</h3>
+                  </AnimatedScroll>
+
                   <AnimatedScroll animationClass="animate-hidden">
                   <img src={Ataque2010} className="img-section" alt="Quarteto mágico do Santos em 2010" /> 
                   <p className="p-subsection"> O Quarteto mágico do Santos em 2010</p>
@@ -327,92 +335,140 @@ const Santos2009_2013 = () => {
   
                 <AnimatedScroll animationClass="animate-hidden">
                   <img src={Sansao2010} className="img-section" alt="Sansão na Vila 2010" />
-                  <p className="p-subsection">Neymar escapando de falta do jogador São Paulino</p>
+                  <p className="p-subsection">Neymar no clássico SanSão em 2010</p>
                 </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                  <p className="p-subsection">No dia 25 de Abril de 2010, o Santos enfrentava o surpreedente Santo André pelo título.</p>
+                  <p className="p-subsection">No dia 25 de Abril de 2010, o Santos enfrentava o surpreedente Santo André pelo título. No primeiro jogo, no Pacaembu, o Peixe fez um primeiro tempo apagado,
+                    mas acordou no segundo e acabou vencendo o Santo André de virada, por 3x2, 2 gols de Wesley e um de André.
+                  </p>
                 </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                   {/*<img src={Diego3} className="img-section" alt="Diego provocando SP"/>*/}
-                  <p className="p-subsection">Clássica comemoração de Diego Ribas contra o São Paulo</p>
+                   <img src={Wesley} className="img-section" alt="Wesley "/>
+                  <p className="p-subsection">Wesley comemorando gol na final do paulista 2010</p>
                 </AnimatedScroll>
 
                 <AnimatedScroll animationClass="animate-hidden">
-                  <p className="p-subsection">O próximo desafio do time da baixada era o Grêmio e com mais um show de futebol, ganharam deles com sobras na Vila Belmiro
-                     por 3x0 e com mais um show de Robinho, porém no jogo de volta perderam por 1x0, mas já não importava mais, pois no placar agregado ficaria 3x1,
-                      e o mais importante, a tão desejada vaga na final. E sonho esse, que parecia impossível para eles no começo do campeonato, depois de 7 anos,
-                       o Santos voltava a disputar uma final de brasileiro.</p>
+                  <p className="p-subsection">No dia 02 de maio, novamente no Pacaembu, Santos e Santo André fizeram um confronto histórico.
+                    Ambos os times completamente ofensivos, cheios de agilidade e rapidez.
+                  </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">O time do ABC marcou o seu primeiro gol com Nunes, logo no começo do jogo. Porém o Peixão não se abalou e meteu o gol
+                    com uma jogadaça de Robinho e Neymar, que escapou da defesa, do goleiro e fuzilou as redes.
+                  </p>
+                </AnimatedScroll>
+
+
+                <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Entretanto o Santo André não se abalou, e meteu uma bola na trave e depois teve um gol mal anulado pela arbitragem.
+                    Aos 19´, Alê marcou o segundo do Ramalhão, que precisava de mais um gol para ser campeão pelo fato de o Santos ter a melhor campanha.
+                  </p>
+                </AnimatedScroll>
+
+                
+                <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Neymar, com sua rapidez, dribles e talento, provocou uma confusão ao cair e ser acusado de simulação pelos rivais.
+                    No meio da confusão toda, o juiz expulsou Léo, lateral do Santos, e Nunes, do Santo André.
+                  </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Aos 31´, um dos gols mais marcantes dessa geraçaõ foi feito: Robinho ganhou uma dividade e passou a bola para Ganso.
+                    O camisa 10 tocou de primeira e de letra para o atacante Neymar, que marcou o segundo dele no jogo.
+                  </p>
                 </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                  {/*<img src={SaoGre} className="img-section" alt="Santos x Gremio"/>*/}
-                  <p className="p-subsection">Santos Enfrentando o Grêmio pela semi-final do Brasileiro</p>
+                  <img src={NeyFinalPaulista2010} className="img-section" alt="Neymar paulsita 2010"/>
+                  <p className="p-subsection">Neymar comemorando gol na final do Paulista 2010</p>
                 </AnimatedScroll>
                 <br></br>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                  <p className="p-subsection">O útlimo adversário não poderia ser outro, era o Corinthians, um dos maiores rivais do Peixe e com um time que vinha embalado com 2 títulos no ano,
-                   <strong style={{color:"#007bff"}}> Copa do Brasil 2002 </strong>e o <strong style={{color: "#007bff"}}>Torneio Rio São Paulo 2002</strong>. Ambos os jogos seriam no Morumbi.
+                  <p className="p-subsection"> Aos 37´, o Santos perdeu Marquinhos, expulso, e deixou a torcida apreensiva. Aos 44´, contra-ataue letal do Santo André,
+                    bola de pé em pé até a conclusão de Branquinho: 3 a 2. E mais um golaço no Pacaembu. E apenas 45 minutos, 5 gols, 3 sendo pinturas e 3 expulsões. E ainda tinha o
+                    segundo tempo.
+                  </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Naturalmente o ritmo no segundo tempo diminuiu, e o Santos começou a se defender muito mais do que atacar. O Santo André só não marcou
+                    os gols nos ataques, pois naquele dia o time da Vila estava iluminado. Ansioso, o alvinegro praiano voltou a ter um jogador expulso, Roberto Brum, substituto 
+                    de Neymar, aos 36´.
+                    <br></br><br></br>
+                    Desesperado para recompor sua defesa a fim de evitar os contra-ataques mortais do Ramalhão, Dorival decidiu substituir Ganso para colocar um zagueiro.
+                    <br></br>                
+                    No entanto, o meia se negou a sair de campo num momento de muita personalidade. Com a bola no pé, Ganso ganhou preciosos minutos, o que tornou o Santos o
+                    <strong style={{color:"#007bff"}}> Campeão Paulista de 2010</strong>!
+                  </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                  <p className="p-subsection">Em 23 jogos, o Santos venceu 18, empatou 2 e perdeu apenas 3. Foram 72 gols marcados e 31 sofridos, média de 3,13 gols por jogo, 
+                    que deu ao Peixe a alcunha de time mais ofensivo do paulista no século. 
+                    <br></br>
+                    Neymar foi o artilheiro do time com 14 gols, André, com 13, e Ganso, com 11.
                   </p>
                 </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                  {/*<img src={Pedaladas} className="img-section" alt="Pedaladas"/>*/}
-                  <p className="p-subsection">As famosas 8 pedaladas de Robinho contra o lateral Rogério</p>
+                  <img src={TaçaPaulista2010} className="img-section" alt="Time com a taça do Paulista 2010"/>
+                  <p className="p-subsection">Time com a taça do Paulista 2010</p>
                 </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                  <p className="p-subsection">No primeiro jogo, o Santos derrotou o Corinthians por 2x0, com gols de Alberto e Renato. Porém, era cedo demais para comemorar, 
-                    pois no jogo de volta, com menos de 1 minuto de jogo, Diego, Camisa 10 e um dos protagonistas do time junto de Robinho, sentiu fortes dores e teve que ser
-                     substituido.<br></br><br></br> No entanto, para o azar da torcida corinthiana, tinha um tal de Robinho que, em uma jogada individual, pedalou 8 vezes em cima de Rogério,
-                      lance esse que até hoje é o que mais representa essa geração do Santos.</p>
+                  <h2 className="p-subsection">A Copa do Brasil 2010</h2>
   
-                  <p className="p-subsection">A jogada individual das pedaladas originou um pênalti, pênalti que o próprio Robinho cobrou e converteu. Um garoto de apenas 18 anos era,
-                     disparado, o melhor jogador daquela edição do Campeonato Brasileiro, marcou gol em todas as partidas do mata-mata, marcou contra o São Paulo, Grêmio e Corinthians.
-                     <br></br><br></br> Porém, 3 gols de vantagem sobre o Corinthians eram muito pouco, e mesmo com 3 gols de desvantagem, o time não se abalou e foi para cima, marcando 2 gols, com o placar agregado em 3x2.
+                  <p className="p-subsection">Paralelo aos jogos do Paulista, o Santos teve compromissos com a  <strong style={{color:"#007bff"}}>Copa do Brasil</strong>,
+                  competição até então jamais vencida pelo Alvinegro Praiano. Foi em um dos primeiros jogos desta competição que o Santos aplicou a goleada histórica contra o
+                  Navirairense, por 10x0, na terceira fase da CdB, o Santos goleou o Remo por 4x0, e nas Oitavas de Final, o Guarani por 8x1, com direito a 
+                  5 gols de Neymar Jr.
                   </p>
   
-                  <p className="p-subsection">Depois do <strong style={{color: "#007bff"}}>Brasileiro de 1983</strong> e do <strong style={{color:"#007bff"}}>Brasileiro de 1995</strong>, 
-                  os torcedores santistas, por um momento, ficaram com medo de que, de novo, pela terceira vez,
-                     batessem na trave, MAS NÃO, o garoto Robinho não deixou isso acontecer, pegou a bola e iniciou uma jogada pela direita, cruzando para que Elano
-                      (outro garoto da base) pudesse marcar aos 43 minutos do segundo tempo: Santos 2x2 Corinthians.
-                       <br></br> <br></br>
-                      No entanto, Robinho queria mais, e depois de mais uma jogada espetacular, tocou para Léo que, em um chute absurdo, fez com que o Santos fosse
-                      <strong style={{color: "#007bff"}}> Campeão Brasileiro de 2002</strong>, com um placar agregado de 5x2. Com muitas doses de drama, o Brasil tinha um
-                       novo campeão nacional!
+                  <p className="p-subsection">Era a terceira goleada da equipe por mais de sete em gols em menos de 4 meses de time! O time montado por Dorival começava a 
+                    despertar a atenção do Brasil inteiro pelo futebol vistoso e ofensivo. Para esse time não bastava apenas o futebol ser ofensivo e bonito, eles tinham
+                    que se exibir e mostrar talento por meio das famosas dancinhas que marcaram época.
                   </p>
                 </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                  {/*<img src={BR2002} className="img-section" alt="Titulo do BR 2002"/>*/}
-                  <p className="p-subsection">Os Meninos Da Vila Diego e Robinho comemorando o título do Brasileiro de 2002</p>
+                  <img src={Danca} className="img-section" alt="Time dançando depois de mais uma goleada"/>
+                  <p className="p-subsection">Se tinha gol, tinha dança</p>
                 </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                  <h2 className="h2-subsection">O Ano de 2003, O Ano do "Quase"</h2>
+                  <h2 className="h2-subsection">Os jogos históricos contra Atlético - MG e Grêmio</h2>
                 </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                  {/* <img src={Ano2003} className="img-section" alt="Elenco 2003"/>*/}
-                  <p className="p-subsection">Time Titular do Santoa na Final da Taça Libertadores da América</p>
+                  <p className="p-subsection">Pelas Quartas de final na Ida, foram até o Mineirão enfrentar o Atlético-MG, e perdeu por 3x2,
+                    com os 3 gols do galo marcados pelo Diego Tardelli, enquanto Robinho e Edu Dracena descontaram para o Santos.
+                  </p>
                 </AnimatedScroll>
                 <br></br>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                  <p className="p-subsection">Depois de um ano de 2002 mágico, o Santos depois de décadas voltava a disputar uma Libertadores. O time de Diego e Robinho
-                     continuava impressionando a todos, conseguindo 4 vitórias e 2 empates na fase de grupos.</p>
+                  <p className="p-subsection">3 dias depois da conquista do <strong style={{color:"#007bff"}}> Campeonato Paulista</strong>, o Santos voltou
+                  em campo com a finalidade de revertar o placar, porém agora jogando na Vila Belmiro. A equipe subiu no embalo do título paulista e ganhou por
+                  3x1, com gols de André, Neymar e Wesley.</p>
                 </AnimatedScroll>
        
                 <AnimatedScroll animationClass="animate-hidden">
-                  <p className="p-subsection">O primeiro desafio do time da baixada pelo mata-mata da Libertadores era contra O Nacional(URU), depois de um 4x4 no primeiro jogo
-                    , em Montevidéu, e um 2x2 no Brasil, o time passava paras as quartas em uma disputa de pênalti.</p>
+                  <p className="p-subsection">Já pela semifinal, enfrentaram o Grêmio e perdeu o jogo de ida, em Porto Alegre, por 4x3, os gols santistas
+                    foram marcados por Robinho e André fez o doblete.
+                    <br></br>
+                    <br></br>
+                    Pelo jogo de volta na Vila, o peixão reverteu a desvantagem e aplicou um sonoro 3x1, com gols de Ganso, Robinho e Wesley, resultado que colocou o 
+                    Santos em mais uma final de campeonato.
+                    </p>
                 </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden">
-                    {/*<img src={Oitavas2003} className="img-section" alt="Libertadores Oitavas  2003"/>*/}
-                    <p className="p-subsection">Santos jogando contra o Nacional do Uruguai pela Oitavas de final da Libertadores</p>
+                    <img src={SanGreCDB} className="img-section" alt="Ganso na semifinal da CDB 2010"/>
+                    <p className="p-subsection">Ganso marcou um golaço na semifinal da Copa do Brasil 2010</p>
                     </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden"> 

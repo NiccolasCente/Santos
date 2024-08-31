@@ -156,3 +156,91 @@ body{
     --dropdown-text-dark: #fff;
     --dropdown-hover-dark: #007bff;
 }
+
+@media (max-width: 500px) {
+    .header-img {
+        max-width: 120px; /* Reduz o tamanho dos ícones da header */
+        margin-top: 0.5em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+@media (max-width: 450px) {
+    .header-img {
+        max-width: 100px; /* Reduz ainda mais o tamanho dos ícones da header */
+    }
+}
+
+@media (max-width: 420px) {
+    .header-img {
+        max-width: 80px; /* Reduz ainda mais o tamanho dos ícones da header */
+    }
+}
+
+@media (max-width: 400px) {
+    .header-img {
+        max-width: 60px; /* Reduz ainda mais o tamanho dos ícones da header */
+    }
+}
+
+/* Estilos de navegação da header */
+.header-nav .navbar-nav {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens de navegação quebrem para a próxima linha */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-nav .navbar-nav .nav-link {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 16px;
+    color: var(--header-text-color);
+    text-decoration: none;
+    margin: 5px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+@media (max-width: 500px) {
+    .header-img {
+        max-width: 120px; /* Reduz o tamanho dos ícones da header */
+        margin: 0.5em 1em;
+    }
+
+    .header-text {
+        font-size: 36px; /* Reduz o tamanho da fonte do texto */
+    }
+}
+
+@media (max-width: 450px) {
+    .header-img {
+        max-width: 100px; /* Reduz ainda mais o tamanho dos ícones da header */
+    }
+
+    .header-text {
+        font-size: 30px; /* Reduz ainda mais o tamanho da fonte do texto */
+    }
+}
+
+@media (max-width: 420px) {
+    .header-img {
+        max-width: 80px; /* Reduz ainda mais o tamanho dos ícones da header */
+    }
+
+    .header-text {
+        font-size: 24px; /* Reduz ainda mais o tamanho da fonte do texto */
+    }
+}
+
+@media (max-width: 400px) {
+    .header-img {
+        max-width: 50px; /* Reduz ainda mais o tamanho dos ícones da header */
+    }
+
+    .header-text {
+        font-size: 18px; /* Reduz ainda mais o tamanho da fonte do texto */
+    }
+
+    
+}
