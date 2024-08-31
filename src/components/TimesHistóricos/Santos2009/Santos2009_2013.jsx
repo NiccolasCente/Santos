@@ -30,6 +30,12 @@ import NeyFinalPaulista2010 from "../../../assets/Santos2009/NeyFinalPaulista201
 import TaçaPaulista2010 from "../../../assets/Santos2009/taçaPaulista2010.jpg";
 import Danca from "../../../assets/Santos2009/danca.jpg";
 import SanGreCDB from "../../../assets/Santos2009/sangrecbd.jpg";
+import RobinhoCopaDoMundo from "../../../assets/Santos2009/copa do mundo.jpg";
+import CopaDoBrasilTitulo from "../../../assets/Santos2009/cdb2010.webp";
+import Escalacao2010 from "../../../assets/Santos2009/escalação2010.jpg";
+import Danilo2010 from "../../../assets/Santos2009/danilo2010.jfif";
+import NeymarDorival  from "../../../assets/Santos2009/NeymarDorival.jpg";
+import NeymarGansoSelecao  from "../../../assets/Santos2009/NeymarGansoSelecao.webp";
 
 const Santos2009_2013 = () => {
     const { theme } = useContext(ThemeContext);
@@ -472,158 +478,147 @@ const Santos2009_2013 = () => {
                     </AnimatedScroll>
   
                 <AnimatedScroll animationClass="animate-hidden"> 
-                    <p className="p-subsection">Pelas quartas de final, enfrentaram o Cruz Azul. O time da baixada empatou em 2x2 no México, e venceu na Vila Belmiro por 1x0, gol de Robinho.
+                    <p className="p-subsection">Em junho, o time entrou de férias por causa da <strong style={{color:"#007bff"}}>Copa do Mundo</strong> e o Brasil inteiro esperava que o técnico da seleção na época,
+                      Dunga, convocasse a dupla alvinegra: Neymar e Ganso, mas as esperanças foram por água abaixo apos o anúncio. 
+                      <br></br><br></br>
+                      Em terras africanas, o Brasil foi eliminado nas quartas de final pela Holanda, com o santista Robinho sendo o jogador
+                      destaque do mata-mata até aquele momento.
                     </p>
                  </AnimatedScroll>  
   
                  <AnimatedScroll animationClass="animate-hidden">
-                   {/* <img src={Semi2003} className="img-section" alt="SemiFinal Libertadores 2003" />*/}
+                   <img src={RobinhoCopaDoMundo} className="img-section" alt="Robinho Copa do Mundo" />
                  </AnimatedScroll> 
   
-  
                  <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">Diego sendo caçado em campo pela SemiFinal da Libertadores 2003</p>
-                    <p className="p-subsection"> Nas semi finais, enfrentaram o Independiente Medellín(COL), com o resultado de 1x0 na Vila, e 3X2, fora.</p>
-                    <p className="p-subsection">Infelizmente, para o azar dos Meninos da Vila(que vinham fazendo história, afinal uma equipe só de garotos chegar em uma Final de Taça Libertadores, com um time QUE apesar de grande, estava há 19 anos sem disputar a competição, por si só já era um grande feito),
-                       eles pegariam o destemido BOCA JUNIORS na grande final.</p>
+                    <p className="p-subsection">Robinho comemorando o gol contra a Holanda na Copa do Mundo de 2010</p>
+                    <h2 className="h2-subsection"> A Final da Copa do Brasil 2010.</h2>
                    </AnimatedScroll>
   
                    <AnimatedScroll animationClass="animate-hidden">
-                    {/*<img src={Final2003} className="img-section" alt="Final da Libertadores da América"/>*/}
-                   <p className="p-subsection">Diego em campo pela Final da Libertadores 2003</p>
+                   <p className="p-subsection">Em julho, o Peixe começou a decidir o título da <strong style={{color:"#007bff"}}>Copa do Brasil </strong>contra o Vitória.</p>
+                   <p className="p-subsection">Na primeira partida da final, na Vila Belmiro, o Peixe ganhou de 2x0, com gols de Neymar e Marquinhos.</p>
                    </AnimatedScroll>
   
                    <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">As partidas da Grande Final, seriam respectivamente na La Bombonera, pelo jogo de ida, e no Morumbi, pelo jogo de volta. O Santos, que até então não 
-                      sabia o que era o gosto da derrota naquela Libertadores, conhecia pela primeira vez ela, mas infelizmente no pior momento, logo na final.
+                    <p className="p-subsection">A partida de volta, em Salvador, o Vitória virou para 2x1 no segundo tempo, mas não foi o bastante para impedir o Peixe de levantar a tão
+                      sonhada taça inédita, o Santos era campeão da  <strong style={{color:"#007bff"}}>Copa do Brasil </strong>!
                       <br></br>
                       <br></br>
-                       O Boca Juniors vencia em casa por 2x0. No Morumbi, O Santos até começou melhor, mas perdeu oportunidades e viu ruir o sonho do TRI, 3x1, no Morumbi.
-                        Boca Juniors, o time que ousou tirar uma Libertadores de Diego e Robinho.</p>
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                    <h2 className="h2-subsection">A Tentativa de Recomposição no Brasileirão</h2>
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                   {/* <img src={BR2003} className="img-section" alt="Recomposição no BR"></img>*/}
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                   <p className="p-subsection">Robinho em um jogo Válido pelo Brasileiro 2003</p>
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">Depois do frustrante vice para o Boca Juniors, o Santos não teve forças para alcançar o Cruzeiro de Alex, afinal focaram na Libertadores e
-                       deixaram o Brasileiro de lado, campeonato esse que era o primeiro em pontos corridos na história.</p>
-                  </AnimatedScroll>
-  
-                  <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">O time de Alex venceu com folga e mais uma vez o Santos amargurava um vice-campeonato. Infelizmente o grito de campeão ficava intalado mais uma vez. 
-                      Triste, pois esse em minha opinião é o melhor time da história do Santos, depois de Pelé e companhia.
-                      <br></br> <br></br>
-                       A única coisa que deixava a desejar neste elenco
-                       era a inexperiência dos jogadores, mas infelizmente este foi o fator que vez o Santos amargurar 2 vices no ano.</p>   
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                    <h2 className="h2-subsection"> O Bi Campeonato Brasileiro</h2>
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                     {/*<img src={BR2004} className="img-section" alt="Elenco de 2004" />*/}
-                   </AnimatedScroll>
-                   
-                   <AnimatedScroll animationClass="animate-hidden"> 
-                    <p className="p-subsection">Elenco Vencedor do Brasileiro 2004</p>
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">O ótimo trabalho feito pelo técnico Emerson Leão nos anos de 2002 e 2003 começou a desmoronar em 2004, 
-                      demonstrando declínios severos logo no <strong style={{color: "#007bff"}}>Campeonato Paulista de 2004</strong>, onde o time tomou 4 x 0 do São Caetano 
-                      em plena Vila Belmiro, em uma semifinal do Campeonato Paulista.
-                   </p>
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">A isso sucedeu uma crise de relacionamentos, que explodiu na derrota por 4 a 2 contra a LDU, nas oitavas de final da 
-                      Libertadores. O técnico, em comum acordo, se desligou do time. O técnico Vanderlei Luxemburgo foi contratado para apagar o incêndio deixado 
-                      por Leão e fazer o time voltar a desempenhar bem.
-                   </p>
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animation-hidden">
-                    <p className="p-subsection">Até conseguiram reverter o placar e se classificar para as quartas de final, porém, 
-                      o favorito Santos perdeu o confronto para o surpreendente Once Caldas!
-                    </p>
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">Depois de uma campanha decepcionante na <strong style={{color:"#007bff"}}>Libertadores 2004</strong>, sendo eliminados para o surpreendente Once Caldas
-                      (clube esse que ganhou de Santos, São Paulo e do Boca Juniors na grande final), o Santos se voltou todo para o campeonato brasileiro daquele ano.</p>
-  
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                      {/*<img src={Robinho2004} className="img-section" alt="Robinho 2004"></img>*/}
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">Robinho comemorando um gol</p>
-  
-                   </AnimatedScroll>
-                   <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">Robinho tinha apenas um defeito entre 2002-2003: não era finalizador. O menino da vila construía jogadas maravilhosas, 
-                      costurava defesas inteiras, mas pecava na finalização.
-                      <br></br>
-                      <br></br>
-                      Este foi exatamente o ponto que Vanderlei Luxemburgo corrigiu, Robinho naquele ano mais uma vez seria protagonista, 
-                      porém marcando muito mais gols.
+                    O time da Vila, teve o melhor ataque da história da Copa do Brasil, 39 gols em 11 jogos, média de 3,5 gols por jogo. 
+                    <br></br>
+                    Os artilheiros do Peixão no campeonato
+                    foram Neymar, com 11 gols, André, com 8 gols, e Robinho, com 6 gols.  
                       </p>
                    </AnimatedScroll>
   
                    <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">Como dito anteriormente o Santos foi eliminado pelo Once Caldas, e se voltou completamente para o Brasileiro daquele ano
-                       e infelizmente com algumas peças a menos como: Diego Ribas, Alex e Paulo Almeida, que tinham sido vendidos logo após a eliminação. 
-                       <br></br>
-                       <br></br>
-                       Isso fez com que o time no começo tivesse alguns problemas na defesa e na criação, porém o técnico Luxemburgo arrumou isso fazendo um jogo coletivo
-                        e rápido.</p>
-  
-                   </AnimatedScroll>
-                   <AnimatedScroll animationClass="animate-hidden">
-                     {/*<img src={Ricardinho2004} className="img-section" alt="Ricardinho"/>*/}
+                    <img src={CopaDoBrasilTitulo} className="img-section" alt="Título da Copa do Brasil 2010"/>
                    </AnimatedScroll>
   
                    <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">Ricadinho, contratação de 2004 para substituir o Meia Diego</p>
+                   <p className="p-subsection">Neymar e Ganso levantando o caneco inédito</p>
                    </AnimatedScroll>
   
                    <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">As principais contratações desse ano para substituir as peças perdidas foram: Deivid, Basílio e Ricardinho.
+                    <p className="p-subsection">Se contabilizar os gols do <strong style={{color:"#007bff"}}>Campeonato Paulista</strong> e da
+                    <strong style={{color:"#007bff"}}> Copa do Brasil</strong>, o Peixão contabilizou fantásticos 111 gols em 34 partidas.
+                    <br></br>
+                    <br></br>
+                    A taça inédita, deu para o Peixe uma vaga direta para a <strong style={{color:"#007bff"}}>Copa Libertadores da América</strong>, 
+                    de 2011, e ali a história continuaria sendo feita, mas antes disso brigas internas e vendas aconteceram.
+                    </p>
+                  </AnimatedScroll>
+  
+                   <AnimatedScroll animationClass="animate-hidden">
+                     <img src={Escalacao2010} className="img-section" alt="Elenco de 2010" />
+                   </AnimatedScroll>
+                   
+                   <AnimatedScroll animationClass="animate-hidden"> 
+                    <p className="p-subsection">Escalação titular do Santos de 2010 no primeiro semestre</p>
+                   </AnimatedScroll>
+  
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection">Saídas, Vendas e Brigas Internas
+                   </h2>
+                   </AnimatedScroll>
+  
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Após os títulos do primeiro semestre, o Santos começou a sofrer com saídas e vendas de atletas. Robinho foi contratado pelo Milan,
+                      André foi vendido para o Dínamo Kiev, e Wesley foi vendido para o Werder Bremen da Alemanha.
                       <br></br>
-                      Deivid vindo por empréstimo da França, Basílio veio de um time da série B, ambos compondo um ótimo ataque na ausência de Robinho, e por último
-                      Ricardinho, o meia cobrador de faltas que veio da Inglaterra!
+                      <br></br>
+                      Outro que quase deixou a Vila Belmiro foi Neymar, que foi seduzido por uma proposta milionária do Chelsea, mas um árduo trabalho de bastidores
+                      em que Neymar ganhava um projeto de carreia, além da interferência de Rei Pelé, conseguiram manter o Menino da Vila.                                        
+                   </p>
+                   </AnimatedScroll>
+  
+                   <AnimatedScroll animationClass="animation-hidden">
+                    <p className="p-subsection">Para amenizar um pouco as perdas, contrataram o lateral direito Danilo e anunciou, em novembro daquele ano,
+                      a repatriação de Elano, ídolo do time que fez parte da geração passada, e um dos destaques da  <strong style={{color:"#007bff"}}>Copa do Mundo</strong>.
+                    </p>
+                   </AnimatedScroll>
+  
+                   <AnimatedScroll animationClass="animate-hidden">
+                      <img src={Danilo2010} className="img-section" alt="Danilo 2010" />
+                   </AnimatedScroll>
+  
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Danilo sendo anunciado em 2010</p>
+                   </AnimatedScroll>
+
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">De Julho de 2010 até Novembro, o time perdeu a oportunidade de conquistar a Tríplice Coroa ao não fazer uma boa
+                      campanha no Brasileiro e terminar apenas na oitava posição.
+                      <br></br>                       
+                      A lesão fatal de PH Ganso no jogo contra o Grêmio também contribuiu para o desempenho abaixo do time no campeonato.
+                      </p>
+                   </AnimatedScroll>
+  
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Um dos motivos para o fraco rendimento, além das saídas e vendas pós-título nacional, foi o desentendimento
+                      entre Neymar e Dorival Júnior após uma partida contra o Atlético-GO. Neymar foi impedido de bater o pênalti pelo treinador e xingou
+                      Dorival de maneira impiedosa, claramente descontente com a decisão.
+                      <br></br>
+                      <br></br>
+                      Dorival afastou o jovem por indisciplina, mas a diretoria alvinegra comrpou o lado de Neymar e demitiu o técnico.
+                    </p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">A diretoria queria que o garoto voltasse a campo para um clássico contra o Corinthians, mas Dorival tinha deixado.
+                    </p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarDorival} className="img-section" alt="Neymar e Dorival"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar e Dorival em 2010
+                    </p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">A única coisa boa no segundo semestre de 2010 foram as constantes convocações de Neymar pela seleção brasileira.
                     </p>
   
                    </AnimatedScroll>
 
                    <AnimatedScroll animationClass="animate-hidden">
-                   {/*<img src={Basilio2004} className="img-section" alt="Basilio"/> */}
+                   <img src={NeymarGansoSelecao} className="img-section" alt="Neymar e Ganso pela seleção"/> 
                    </AnimatedScroll>
 
                    <AnimatedScroll animationClass="animate-hidden">
-                   <p className="p-subsection">Basílio, o amuleto da Vila, mesmo sendo reserva marcou 15 gols no campeonato!</p>
+                   <p className="p-subsection">Neymar e PH Ganso pela seleção brasileira em 2010</p>
                    </AnimatedScroll>
-  
+
                    <AnimatedScroll animationClass="animate-hidden">
-                   {/*<img src={Deivid2004} className="img-section" alt="Deivid"/>*/}
-                   </AnimatedScroll>
+                    <h2 className="h2-subsection"> 2011, Os Meninos da Vila, se tornam Meninos da América</h2>
   
-                   <AnimatedScroll animationClass="animate-hidden">
-                   <p className="p-subsection">Deivid comemorando um gol pelo Brasileiro 2004</p>
                    </AnimatedScroll>
+                   
   
                    <AnimatedScroll animationClass="animate-hidden">
                    <p className="p-subsection">Deivid, o parceiro de ataque de Robinho, foi artilheiro do time ao lado do próprio com 22 gols no campeonato!
