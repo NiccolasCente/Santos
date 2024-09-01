@@ -42,6 +42,7 @@ import Muricy2011 from "../../../assets/Santos2009/Muricy2011.webp";
 import Paulista2011 from "../../../assets/Santos2009/Paulista2011.webp";
 import Ganso2011 from "../../../assets/Santos2009/Ganso2011.jpg"
 import NeymarLibertaQuartas2011 from "../../../assets/Santos2009/NeymarLibertaQuartas2011.avif";
+import NeymarSemiLiberta2011 from "../../../assets/Santos2009/NeymarSemiLiberta2011.jpg";
 import NeymarFinal2011 from "../../../assets/Santos2009/NeymarFinal2011.webp";
 import PeleLeo from "../../../assets/Santos2009/PeléLéo.webp";
 import Escalacao2011 from "../../../assets/Santos2009/escalação2011.jpg";
@@ -49,6 +50,15 @@ import NeymarPuskas from "../../../assets/Santos2009/NeymarPuskas.jpg";
 import NeymarFlamengo from "../../../assets/Santos2009/NeymarFlamengo.jpg";
 import NeymarBorges from "../../../assets/Santos2009/NeymarBorges.jpg";
 import NeymarMessi from "../../../assets/Santos2009/NeymarMessi.jpg";
+// Ano 2012
+import NeymarGanso from "../../../assets/Santos2009/NeymarGanso2012.jpg";
+import NeymarSanSao2012 from "../../../assets/Santos2009/NeymarSanSão2012.jpg";
+import NeymarPiris2012 from "../../../assets/Santos2009/NeymarPiris2012.jpg";
+import NeymarGansoElano2012 from "../../../assets/Santos2009/NeymarGansoElano2012.webp"
+import NeymarInternacional2012 from "../../../assets/Santos2009/NeymarInternacional2012.webp"
+import NeymarOitavas2012 from "../../../assets/Santos2009/NeymarOitavas2012.jpg";
+import RafaelCabral from "../../../assets/Santos2009/RafaelCabral.jpg";
+
 
 const Santos2009_2013 = () => {
     const { theme } = useContext(ThemeContext);
@@ -600,7 +610,7 @@ const Santos2009_2013 = () => {
                    </AnimatedScroll>
 
                    <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">A diretoria queria que o garoto voltasse a campo para um clássico contra o Corinthians, mas Dorival tinha deixado.
+                    <p className="p-subsection">A diretoria queria que o garoto voltasse a campo para um clássico contra o Corinthians, mas Dorival não tinha deixado.
                     </p>
                    </AnimatedScroll>
 
@@ -757,6 +767,14 @@ const Santos2009_2013 = () => {
 
                    
                    <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarSemiLiberta2011 } className="img-section" alt="Neymar pela SemiFinal da Libertadores"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar pela SemiFinal da Libertadores</p>
+                   </AnimatedScroll>
+                 
+                   <AnimatedScroll animationClass="animate-hidden">
                     <h2 className="h2-subsection"> Reis da América, 48 Anos Depois</h2>
                    </AnimatedScroll>
 
@@ -777,7 +795,7 @@ const Santos2009_2013 = () => {
                      <br></br>
                      No jogo de volta, no Pacaembu, com 40 mil pessoas no estádio, todas esperando ver um título que desde a época de Pelé não
                      era conquistado. Depois de um primeiro tempo tenso, sem gols e com os uruguais tentando achar um gol, o craque, o Menino Da Vila,
-                     Neymar Jr. marca o primeiro da partida, depois de assistência de Arouca, vinda de uma jogadaça de PH Ganso. Se alguém duvidava do 
+                     Neymar Jr. marca o primeiro da partida, assistência de Arouca, vinda de uma jogadaça de PH Ganso. Se alguém ainda duvidava do 
                      poder de decisão do camisa 11, aí estava a resposta.
                     </p>
                    </AnimatedScroll>
@@ -837,9 +855,9 @@ const Santos2009_2013 = () => {
                    </AnimatedScroll>
 
                    <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection"> Como acontece com todos os times do Brasil, depois de um título importante vem a ressaca, e ficou
-                      até dezembro com um futebol bem mais ou menos, com o intuito de preservar o time titular, mas fica a menção honrosa de mencionar
-                      a contratação do jogadoraço Borges e do golaço de Neymar, contra o Flamengo que lhe rendeu o prêmio Puskas de 2011, além de ter sido 
+                    <p className="p-subsection"> Como acontece com todos os times do Brasil, depois de um título importante vem a ressaca, e o Santos ficou
+                      até dezembro com um futebol bem mais ou menos, com o intuito de preservar o time titular para o Mundial, mas fica a menção honrosa de mencionar
+                      a contratação do jogador Borges e do golaço de Neymar, contra o Flamengo, que lhe rendeu o prêmio Puskas de 2011, além de ter sido 
                       eleito 10º melhor jogador do mundo,
                       jogando na América do Sul, feito único até hoje na história do futebol Sul-Americano.
                     </p>
@@ -904,6 +922,164 @@ const Santos2009_2013 = () => {
                    <AnimatedScroll animationClass="animate-hidden">
                     <h2 className="h2-subsection">O Ano de 2012, O Tri Paulista e o Começo Da Queda</h2>
                    </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarGanso} className="img-section" alt="Neymar e Ganso em uma partida pelo Paulista 2012"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Neymar e Ganso em uma partida pelo Paulista 2012 </p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection">O Campeonato Paulista 2012, O Tri Paulista</h2>
+                   </AnimatedScroll> 
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Depois da dor de cabeça causada pela derrota no Mundial. O Santos iniciou em marcha lenta o
+                    <strong style={{color:"#007bff"}}> Campeonato Paulista de 2012</strong>.
+                    <br></br>
+                    Foi a partir deste ano que a "Neymar dependência" começou, pois com as vendas dos laterais Alex Sandro, Jonathan e Danilo e Alan Patrick, tanto 
+                    o time titular, quanto o banco de reservas decaiu muito, e a diretoria junto de Muricy Ramalho fizeram PÉSSIMAS reposições, reposições essas que
+                    não tinham nível técnico suficiente para jogar num time que disputava todos os títulos.
+                     </p>
+                   </AnimatedScroll> 
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Com a manutenção do elenco e de Neymar(que passou a ficar no time devido a inúmeros apoios financeiros De
+                      parceiros publicitários), a equipe santista, junto do rival Corinthians, eram as favoritas a conquistar o títuo estadual. </p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">O Peixe terminou a primeira fase na terceira posição, com 12 vitórias, 3 empates e 4 derrotas em 
+                      19 jogos, com 46 gols marcados(pra variar, o melhor ataque disparado) e 18 sofridos. </p>
+                   </AnimatedScroll> 
+
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection">O Mata-Mata do Paulista 2012</h2>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarSanSao2012} className="img-section" alt="Neymar no SanSão 2012"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Neymar depois de marcar um Hat-Trick contra o São Paulo em pleno Morumbi </p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Pelas Quartas de Final, vitória por 2x0, contra o Mogi Mirim. Com golaço e assintência de Neymar. </p>
+                   </AnimatedScroll> 
+
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Pelas Semi Finais, vitória por 3x1, contra o São Paulo. Com a melhor atuação de Neymar com a camisa do Santos.
+                      O Menino da Vila marcou um Hat-Trick(3 gols) em pleno Morumbi, dançou, provocou e HUMILHOU o lateral Piris, que disse dias antes que tinha
+                      total capacidade de marcar o jovem santista.<br></br>
+                      A freguesia do São Paulo já era notória, 3 eliminações seguidas sofrendo com Neymar e Ganso.
+                       </p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarPiris2012} className="img-section" alt="Neymar x Piris pelo Paulista 2012"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Neymar momentos antes de dar 5 dribles seguidos encima do lateral Piris</p>
+                   </AnimatedScroll> 
+
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> A partida final seria contra o Guarani, e ambas seriam no Morumbi. E o Santos deitou e rolou. No primeiro duelo, vitória fácil por 3x0,
+                      2 gols de Neymar e um golaço de Ganso. Na partida de Volta, o Santos venceu por 4x2, com doblete de Neymar e outro de Alan Kardec, garantindo o tricampeonato paulista.
+                      <br></br>
+                      Assim, o Peixão foi campeão do <strong style={{color:"#007bff"}}> Campeonato Paulista de 2012</strong>.
+                    </p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarGansoElano2012} className="img-section" alt="Neymar, Ganso e Elano pela final do paulista 2012"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar, Ganso e Elano pela Final do Paulista 2012</p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar foi o grande artilheiro tanto do time como do Paulistão em si, 20 gols na competição.</p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection">O sonho do Tetra acabado</h2>
+                   </AnimatedScroll> 
+
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarInternacional2012} className="img-section" alt="Neymar depois de meter um golaço contra o internacional em 2012"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar depois de meter um golaço contra o internacional pela Copa Libertadores 2012</p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Pela <strong style={{color:"#007bff"}}>Copa Libertadores da América de 2012</strong>, o Peixe com o protagonismo
+                    de Neymar, somou 4 vitórias, 1 empate e 1 derrota pela fase de grupos. Uma menção honrosa é para o jogo HISTÓRICO, onde Neymar marcou um Hat-Trick, 
+                    sendo 2 desses golaços dignos de Puskás.
+                    </p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Pelas Oitavas de Final, o Peixe encarou o Bolívar, e perdeu por 2x1, em La Paz. Com o técnico do Bolívar dizendo no pós-jogo que não
+                      conhecia o o "tal de Neymar", bem, como disse Neymar: "Eu só tenho uma coisa pra falar, o jogo não é só de ida não, tem volta, lá em Santos eles 
+                      vão ver!".
+                      <br></br>
+                      <br></br>
+                      E realmente viram, o jogo de Volta, em Santos, foi um dos maiores chocolates da HISTÓRIA da <strong style={{color:"#007bff"}}>Libertadores</strong>!
+                      Foi um singelo 8x0, com 2 gols  e 3 assistências de Neymar, 2 de Elano, 2 de Ganso, 1 de Borges e Alan Kardec, foi nesse jogo que Neymar fez sua famosa comemoração
+                      se apresentando para todos, como forma de provocar o técnico do Bolivar pelo que ele disse semanas antes.
+                    </p>
+                   </AnimatedScroll> 
+
+                    
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarOitavas2012} className="img-section" alt="Neymar fazendo a saudação"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar fazendo a sua famosa saudação em plena noite de Libertadores na Vila Belmiro em 2012</p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Pelas Quartas de Final, a equipe da Baixada Santista enfrentou o Vélez Sarsfield. No jogo de Ida, em Buenos
+                      Aires, Neymar foi anulado e viu o Peixão ser derrotado por 1x0.
+                      <br></br>
+                      <br></br>
+                      Na Volta, em Santos, Alan Kardec marcou o gol da vitória que levou a decisão para os pênaltis, onde o Menino da Vila, o goleiro Rafael Cabral brilhou e
+                      defendeu 2 pênaltis. Peixão classificado para a SemiFinal, contra o poderoso Corinthians de Tite, esse jogo foi considerado a final antecipada.
+                    </p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={RafaelCabral} className="img-section" alt="Goleiro Rafael Cabral"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">O Menino da Vila Rafael Cabral foi o Herói das Quartas de Final da Libertadores 2012 pelo Peixão</p>
+                   </AnimatedScroll> 
+
+
+
+
+                   
+
+
+
+
+
+
+
+
               </div>
             </Col>
           </Row>
