@@ -21,7 +21,14 @@
     margin-top: 1em;
     margin-bottom: 1em;
     aspect-ratio: 10 / 10; 
+    transition: transform 0.3s ease-in-out;
   }
+
+  .img-section-jogadores:hover {
+    transform: scale(1.05); 
+}
+
+
 .player-text {
     flex: 1;
     font-family: "Jockey One", sans-serif;
