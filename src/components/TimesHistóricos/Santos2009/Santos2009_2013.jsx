@@ -36,6 +36,19 @@ import Escalacao2010 from "../../../assets/Santos2009/escalação2010.jpg";
 import Danilo2010 from "../../../assets/Santos2009/danilo2010.jfif";
 import NeymarDorival  from "../../../assets/Santos2009/NeymarDorival.jpg";
 import NeymarGansoSelecao  from "../../../assets/Santos2009/NeymarGansoSelecao.webp";
+// Ano 2011
+import NeymarGanso2011 from "../../../assets/Santos2009/NeymarGanso2011.webp";
+import Muricy2011 from "../../../assets/Santos2009/Muricy2011.webp";
+import Paulista2011 from "../../../assets/Santos2009/Paulista2011.webp";
+import Ganso2011 from "../../../assets/Santos2009/Ganso2011.jpg"
+import NeymarLibertaQuartas2011 from "../../../assets/Santos2009/NeymarLibertaQuartas2011.avif";
+import NeymarFinal2011 from "../../../assets/Santos2009/NeymarFinal2011.webp";
+import PeleLeo from "../../../assets/Santos2009/PeléLéo.webp";
+import Escalacao2011 from "../../../assets/Santos2009/escalação2011.jpg";
+import NeymarPuskas from "../../../assets/Santos2009/NeymarPuskas.jpg";
+import NeymarFlamengo from "../../../assets/Santos2009/NeymarFlamengo.jpg";
+import NeymarBorges from "../../../assets/Santos2009/NeymarBorges.jpg";
+import NeymarMessi from "../../../assets/Santos2009/NeymarMessi.jpg";
 
 const Santos2009_2013 = () => {
     const { theme } = useContext(ThemeContext);
@@ -616,74 +629,281 @@ const Santos2009_2013 = () => {
 
                    <AnimatedScroll animationClass="animate-hidden">
                     <h2 className="h2-subsection"> 2011, Os Meninos da Vila, se tornam Meninos da América</h2>
-  
                    </AnimatedScroll>
-                   
-  
+
                    <AnimatedScroll animationClass="animate-hidden">
-                   <p className="p-subsection">Deivid, o parceiro de ataque de Robinho, foi artilheiro do time ao lado do próprio com 22 gols no campeonato!
-                    Deivid teve 9 gols mal anulados neste campeonato e mesmo assim foi artilheiro do time!
-                   </p>
-  
-                  </AnimatedScroll>
-  
-                  <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">Até a 33.º rodada, o principal rival do Santos era o Athlético-PR que estava na liderança brigando para ganhar o título. 
-                      Athlético-PR esse que há alguns anos tinha sido Campeão<strong style={{color:"#007bff"}}> Brasileiro de 2001</strong>, e depois vice da  
-                      <strong style={{color:"#007bff"}}> Libertadores 2005</strong>.
-                    </p>
-                  </AnimatedScroll>
-                  <p className="p-subsection">O Santos lutou pelo titulo até o último jogo, que foi contra o Vasco, o Santos ganhou por 2x1, mais uma vez o Santos levantava um caneco para a 
-                    alegria da torcida, com Robinho e Deivid tendo anotados 22 gols cada, apesar dos problemas de arbitragem, sequestro da mãe de Robinho e fora da Vila Belmiro,
-                     o Santos ganhava seu 
-                    oitavo título brasileiro.</p>
-                   <AnimatedScroll animationClass="animate-hidden">
-                   {/*<img src={Titulo2004} className="img-section" alt="Titulo 2004"/>*/}
+                   <img src={NeymarGanso2011} className="img-section" alt="Neymar e Ganso em 2011"/> 
                    </AnimatedScroll>
-  
+
                    <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">Elenco do Santos comemorando mais um caneco levantado</p>
+                    <p className="p-subsection">Neymar e Ganso em 2011 pelo Santos</p>
                    </AnimatedScroll>
-  
+
                    <AnimatedScroll animationClass="animate-hidden">
-                    <h2 className="h2-subsection"> 2005, O fim da Era Diego e Robinho</h2>
-  
+                    <h4 className="h4-subsection">O Campeonato Paulista 2011</h4>
                    </AnimatedScroll>
-                   
+
                    <AnimatedScroll animationClass="animate-hidden">
-                    {/*<img src={Robinho2005} className="img-section" alt="Robinho apresentação real madrid"/>*/}
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                   <p className="p-subsection"> Robinho em sua apresentação no Real Madrid
-                  </p>
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">Depois de mais um caneco levantado, convocações constantes para a seleção brasileira e  atuações cada vez melhores era 
-                      impossível para o Santos segurar sua maior joia, 
-                      Robinho. Depois de muitas especulações, 
-                      o menino da vila foi para o Real Madrid ser o camisa 10.</p>
-                   </AnimatedScroll>
-  
-                   <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">
-                    Apesar de Diego e Robinho não terem correspondido as expectativas de serem os melhores jogadores do mundo, tiveram carreiras bem sólidas no Brasil e Europa. 
-                    O legado que eles deixaram foram o da alegria e ousadia que tanto faltava no Santos.
-                    <br></br>
-                    <br></br>
-                      Uma geração gigante em termos de titulos e futebol bem jogado. Se não existisse Diego e Robinho,
-                     possivelmente nunca veriamos Neymar e Ganso.
+                    <p className="p-subsection">Na temporada de 2011, o Santos contratou o técnico Adílson Batista e começou a defender seu 
+                      título de campeão. Estrearam com o pé direito, um 4x1 sobre o Linense. No entanto a boa estreia não foi o suficiente para
+                      manter o técnico no cargo, depois de 11 jogos de um péssimo trabalho, Adílson Batista foi demitido.
                     </p>
                    </AnimatedScroll>
-  
+
                    <AnimatedScroll animationClass="animate-hidden">
-                    {/*<img src={DiegoRobinho} className="img-section" alt="Diego e Robinho em treino pelo Santos"/>*/}
+                    <p className="p-subsection">Um técnico interino assumiu o cargo até a chegada do novo, Muricy Ramalho. O Santos de Muricy não chegava 
+                      nem perto de ser aquele time ofensivo de 2010, porém tinha uma consistência defensiva muita maior. Obviamente as saídas de Robinho
+                      e André fizeram falta, além dos problemas físicos de Ganso que começaram no ano de 2010 devido a lesão no joelho.
+                    </p>
                    </AnimatedScroll>
-  
+
                    <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">Diego e Robinho em um treino pelo Santos</p>
+                   <img src={Muricy2011} className="img-section" alt="Muricy em 2011"/> 
                    </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Muricy Ramalho em campo pelo Santos em 2011</p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">O técnico deixou o time encaixado novamente, foram 40 gols feitos e 20 sofridos, o Peixão se classificava pro mata-mata!</p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Nas Quartas de Final, venceu a Ponte Preta por 1 a 0(gol de Neymar), e nas SemiFinais venceu o São Paulo por 2x0(gols de Ganso e Elano).</p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Na final enfrentariam o Corinthians na ida no Pacaembu(0x0), e a grande partida da volta
+                      seria na Vila Belmiro. E advinhe? Obviamente um gol de Neymar Jr, que em um chute potente marcou para a equipe santista, o outro gol
+                      foi feito por Arouca. 2x1 para o bi-campeão paulista!</p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={Paulista2011} className="img-section" alt="Taça do  Paulista 2011"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar carregando a taça do Paulista 2011</p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">O artilheiro do Santos no Paulista 2011 foi justamente o ídolo Elano que tinha voltado no começo do ano, tendo marcado 11
+                      gols.
+                    </p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection"> O Caminho Para a América</h2>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Em paralelo com o Paulistão, o Santos teve compromissos pela fase de grupos da <strong style={{color:"#007bff"}}>Copa Libertadores</strong>,
+                    com o Peixão se classificando em segundo colocado com 3 vitórias, 2 empates e 1 derrota.</p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">A partir da fase mata-mata Neymar começou a ter seu desempenhado sobrenatural sendo decisivo em
+                      todos os jogos, fazendo gols ou dando assistências.</p>
+                   </AnimatedScroll>
+
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Nas Oitavas de final, contra o América do México, Ganso marcou o gol da vitória na Vila Belmiro.
+                      Pela partida de volta, empate de 0x0, Peixão classificado.
+                    </p>
+                   </AnimatedScroll>
+
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Um fato engraçado é que o Santos foi o único clube brasileiro a ter se classificado nesse dia, 
+                      TODOS os outros foram eliminados ao mesmo tempo.</p>
+                   </AnimatedScroll>
+
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={Ganso2011} className="img-section" alt="Ganso em 2011 pelas oitavas de final"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Ganso discutindo com jogador adversário pelas Oitavas de final da Libertadores 2011.</p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">O adversário nas Quartas de Final, era o algoz Once Caldas, que elimiou Diego e Robinho em 2004.</p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">No jogo de Ida, na Colômbia, venceu por 1x0, gol salvador de Alan Patrick. No jogo de volta, no Pacaembu, empate
+                      por 1x1, gol de Neymar Jr.
+                    </p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarLibertaQuartas2011} className="img-section" alt="Neymar pelas quartas de final da Libertadores"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar pelas Quartas de final da Libertadores</p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">O adversário na SemiFinal, era o Cerro Porteño. No jogo de Ida, em São Paulo, Pacaembu, vitória por 1X0,
+                      gol de Edu Dracena. No jogo da Volta, empate por 3x3, com gols de Neymar, Zé Love e Jonathan. Depois de 8 anos, o peixão estaria
+                      novamente numa final internacional, e iria se reencontrar com o Peñarol, o mesmo que enfrentou na Final de 1962, na qual o Santos
+                      saiu campeão de sua primeira Libertadores.
+                    </p>
+                   </AnimatedScroll>
+
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection"> Reis da América, 48 Anos Depois</h2>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarFinal2011} className="img-section" alt="Neymar pela final da Libertadores"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar comemorando o gol decisivo contra o Peñarol pela final da Libertadores</p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">A primeira partida da final foi disputada em Montevidéu, no estádio Centenário.
+                      O Peñarol apostava na força da sua torcida e na raça de seus jogadores para conseguir uma vitória mínima e jogar
+                      pelo empate na volta, em São Paulo. Mas a defesa alvinegra composta por Danilo, Edu Dracena, Durval e Alex Sandro,
+                     não deixaram passar nada.
+                     <br></br>
+                     <br></br>
+                     No jogo de volta, no Pacaembu, com 40 mil pessoas no estádio, todas esperando ver um título que desde a época de Pelé não
+                     era conquistado. Depois de um primeiro tempo tenso, sem gols e com os uruguais tentando achar um gol, o craque, o Menino Da Vila,
+                     Neymar Jr. marca o primeiro da partida, depois de assistência de Arouca, vinda de uma jogadaça de PH Ganso. Se alguém duvidava do 
+                     poder de decisão do camisa 11, aí estava a resposta.
+                    </p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Aos 23´, Danilo recebe na direita de Elano, driblou, e num chute colocado, meteu um golaço para abrir
+                      vantagem no placar, 2x0 na final da  <strong style={{color:"#007bff"}}>Libertadores</strong>.
+                    </p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Aos 34´do segundo tempo, Durval faz o gol contra, 2x1, mas não adiantava mais nada, como disse Léo: "AGORA
+                      NINGUÉM TIRA!", o Santos se segurou e se tornou campeão da América pela terceira vez, o Peixe era campeão da <strong style={{color:"#007bff"}}>
+                       Copa Libertadores da América de 2011. </strong>
+                    </p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={PeleLeo} className="img-section" alt="Pelé e Léo levantando a taça da Libertadores"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> O Rei Pelé e o lateral Léo levantando a taça da Libertadores</p>
+                   </AnimatedScroll>
+                   <br></br>
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Era o fim de uma longa espera e a consagração de um time que brilhava desde 2010. Mais do que isso
+                      , era o elixir de Neymar, o maior símbolo do futebol brasileiro da década de 2010, com seu moicano e jeito caiçara de ser,
+                      decidiu uma final de <strong style={{color:"#007bff"}}>Libertadores</strong> com apenas 19 anos, sendo o jogador mais jovem da história a meter gol em uma final de Liberta.
+                      <br></br>
+                      <br></br>
+                      O Santos em 14 jogos, ganhou 7, empatou 6 e perdeu apenas 1, com 20 gols marcados e 13 sofridos. Neymar foi o artilheiro do time,
+                      com 6 gols e 4 assistências, 1 a menos que os artilheiros Nanni, do Cerro, e Wallyson, do Cruzeiro. Neymar participou de 50%
+                      dos gols do time no campeonato.
+                    </p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={Escalacao2011} className="img-section" alt="Escalação do Santos na Final da Libertadores 2011"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Escalação do Santos na Final da Libertadores 2011. <br></br>Créditos: Imortais do Futebol</p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection"> Á Espera Do Mundial </h2>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarFlamengo} className="img-section" alt="Neymar Marcardo o gol Puskas contra o Flamengo"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar Marcardo o gol Puskas contra o Flamengo em 2011.</p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Como acontece com todos os times do Brasil, depois de um título importante vem a ressaca, e ficou
+                      até dezembro com um futebol bem mais ou menos, com o intuito de preservar o time titular, mas fica a menção honrosa de mencionar
+                      a contratação do jogadoraço Borges e do golaço de Neymar, contra o Flamengo que lhe rendeu o prêmio Puskas de 2011, além de ter sido 
+                      eleito 10º melhor jogador do mundo,
+                      jogando na América do Sul, feito único até hoje na história do futebol Sul-Americano.
+                    </p>
+                   </AnimatedScroll>
+
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarPuskas} className="img-section" alt="Neymar recebendo o prêmio Puskas"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Neymar na premiação da Bola de Ouro 2011, ano em que ficou em 10º colocado </p>
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection"> O Sonho do Tri Mundial Destroçado Pelo Esquadrão de Messi </h2>
+                   </AnimatedScroll>      
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Depois de vários meses de espera, o Santos viajou até o Japão com o objetivo de ser TriMundial. A equipe brasileira era
+                      uma das favoritas, mas simplesmente não teve como superar o Barcelona de Messi, Xavi e Iniesta. </p>
+                   </AnimatedScroll>       
+
+                    <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Nas SemiFinais, enfrentaram o Kashiwa Reysol, do Japão, ganhando por 3x1, com gols de Neymar, Danilo e Borges. Como era 
+                    de se esperar, o Barcelona goleou o time deles e avançou para a final, Neymar x Messi na <strong style={{color:"#007bff"}}>Final do Mundial de CLubes da FIFA 2011</strong>.
+                    </p>
+                   </AnimatedScroll>    
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarBorges} className="img-section" alt="Neymar e Borges pela SemiFinal do Mundial de Clubes 2011"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Neymar e Borges pela SemiFinal do Mundial de Clubes 2011 </p>
+                   </AnimatedScroll> 
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Na final do Mundial de Clubes da FIFA em 2011, o Barcelona dominou completamente o Santos, vencendo por 4 a 0. 
+                      O time catalão teve impressionantes 70% de posse de bola, controlando o jogo do início ao fim. No primeiro tempo, Lionel Messi, Xavi e Cesc Fàbregas
+                       marcaram os gols, deixando o Santos sem reação.
+                       <br></br>
+                       <br></br>
+
+                        No segundo tempo, Messi completou o placar, marcando mais um gol. O Santos, que era conhecido por seu 
+                       futebol ofensivo, mostrou-se apático e incapaz de impor seu jogo. 
+                       <br></br>
+                       <br></br>
+                       Muitos torcedores santistas ainda se perguntam se o time de 2010, que era mais completo,
+                        teria tido uma chance melhor contra aquele poderoso Barcelona, já que o time de 2011 já apresentava diferenças significativas em comparação ao ano 
+                        anterior. </p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarMessi} className="img-section" alt="Neymar e Messi se cumprimentando após a Final do Mundial de Clubes 2011"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection"> Neymar e Messi se cumprimentando após a Final do Mundial de Clubes 2011 </p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection">O Ano de 2012, O Tri Paulista e o Começo Da Queda</h2>
+                   </AnimatedScroll> 
               </div>
             </Col>
           </Row>
