@@ -63,6 +63,9 @@ import NeymarRecopa2012 from "../../../assets/Santos2009/NeymarRecopa2012.jpg";
 import NeymarTitulo2012 from "../../../assets/Santos2009/NeymarTitulo2012.jpg";
 // Ano 2013
 import Neymar2013 from "../../../assets/Santos2009/Neymar2013.jpg";
+import Neymar2013Sansao from "../../../assets/Santos2009/Neymar2013Sansão.jpg";
+import NeymarCup2013 from "../../../assets/Santos2009/NeymarCup2013.webp";
+import NeymarDespedida from "../../../assets/Santos2009/NeymarDespedida.jpg";
 
 const Santos2009_2013 = () => {
     const { theme } = useContext(ThemeContext);
@@ -1155,24 +1158,66 @@ const Santos2009_2013 = () => {
                    <AnimatedScroll animationClass="animate-hidden">
                     <p className="p-subsection">Neymar pelo Campeonato Paulista 2013</p>
                    </AnimatedScroll> 
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">O  <strong style={{color: "#007bff"}}> Campeonato Paulista 2013</strong>  foi aquele que todos os torcedores Santistas sabiam que,
+                      seria o último de Neymar pela camisa do Santos, afinal depois de tudo que ele fez, era impossível segurar um 
+                      jogador dessa categoria, e realemnte ele saiu.
+                      <br></br>
+                      <br></br>
+                      Foi vendido por 88 milhões de euros para o Barcelona da Espanha, onde também virou ídolo e ganhou uma <strong style={{color: "#007bff"}}> UEFA Champions League</strong>, inclusive 
+                      marcando um dos gols da Final, porém o craque ainda teve alguns lampejos sendo jogador do Peixão antes dele ir embora em julho de 2013.
+                    </p>
+                   </AnimatedScroll> 
+                        
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={Neymar2013Sansao} className="img-section" alt="Neymar em 2013 depois de marcar um gol contra o SP"/> 
+                   </AnimatedScroll>
 
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar em 2013 depois de marcar um gol contra o São Paulo</p>
+                   </AnimatedScroll> 
 
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Um desses momentos de destaque, foi o jogaço contra o São Paulo, na Vila Belmiro, em que
+                      o Santos ganhou por 3x1. Neymar marcou um gol e deu 2 assistências. Curioso que este foi o primeiro jogo de Ganso contra o Santos!
+                    </p>
+                   </AnimatedScroll> 
 
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">E um dos momentos em que o torcedor santista mais tem que se orgulhar, Neymar ganhou a <strong style={{color: "#007bff"}}> 
+                      Copa Das Confederações 2013</strong> ainda sendo um jogador do SANTOS. Neymar foi eleito melhor jogador da competição e marcando gols contra a Itália
+                      e a grandiosa Espanha de Xavi e Iniesta na Grande Final.
+                      </p>
+                   </AnimatedScroll> 
 
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarCup2013} className="img-section" alt="Neymar Copa das Confederações 2013"/> 
+                   </AnimatedScroll>
 
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar com a taça da Copa das Confederações, prêmio de melhor jogador e Chuteira de Bronze</p>
+                   </AnimatedScroll> 
 
-
-
-
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Com isso, a história de Neymar foi finalizada em Santos, e espero que futuramente ele volte para fazer
+                      a nação santista feliz novamente, afinal ele merece um final de carreira digno e nós merecemos ser felizes novamente.
+                    </p>
+                   </AnimatedScroll> 
 
                    
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarDespedida} className="img-section" alt="Neymar Despedida"/> 
+                   </AnimatedScroll>
 
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar Chorando na Despedida dele em 2013 em um jogo do Campeonato Brasileiro 2013</p>
+                   </AnimatedScroll> 
 
-
-
-
-
-
+                   <AnimatedScroll animationClass="animate-hidden">
+                  <h1 className="h1-subsection">EU VOU, MAS... EU VOLTO!<br></br> 
+                  #TOISS</h1>
+                </AnimatedScroll>
 
               </div>
             </Col>
