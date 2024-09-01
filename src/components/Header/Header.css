@@ -157,37 +157,12 @@ body{
     --dropdown-hover-dark: #007bff;
 }
 
-@media (max-width: 500px) {
-    .header-img {
-        max-width: 120px; /* Reduz o tamanho dos ícones da header */
-        margin-top: 0.5em;
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-}
 
-@media (max-width: 450px) {
-    .header-img {
-        max-width: 100px; /* Reduz ainda mais o tamanho dos ícones da header */
-    }
-}
 
-@media (max-width: 420px) {
-    .header-img {
-        max-width: 80px; /* Reduz ainda mais o tamanho dos ícones da header */
-    }
-}
-
-@media (max-width: 400px) {
-    .header-img {
-        max-width: 60px; /* Reduz ainda mais o tamanho dos ícones da header */
-    }
-}
-
-/* Estilos de navegação da header */
+/*  header */
 .header-nav .navbar-nav {
     display: flex;
-    flex-wrap: wrap; /* Permite que os itens de navegação quebrem para a próxima linha */
+    flex-wrap: wrap; 
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -202,45 +177,65 @@ body{
     transition: color 0.3s, background-color 0.3s;
 }
 
+/*  500px */
 @media (max-width: 500px) {
     .header-img {
-        max-width: 120px; /* Reduz o tamanho dos ícones da header */
+        max-width: 120px; 
         margin: 0.5em 1em;
     }
 
     .header-text {
-        font-size: 36px; /* Reduz o tamanho da fonte do texto */
+        font-size: 36px; 
     }
 }
 
+/* 450px */
 @media (max-width: 450px) {
     .header-img {
-        max-width: 100px; /* Reduz ainda mais o tamanho dos ícones da header */
+        max-width: 40px; 
     }
 
     .header-text {
-        font-size: 30px; /* Reduz ainda mais o tamanho da fonte do texto */
+        font-size: 30px;
+    }
+    .header-img.center {
+        max-width: 60px;
+        
     }
 }
 
+/*  420px */
 @media (max-width: 420px) {
     .header-img {
-        max-width: 80px; /* Reduz ainda mais o tamanho dos ícones da header */
+        max-width: 50px;
     }
 
     .header-text {
-        font-size: 24px; /* Reduz ainda mais o tamanho da fonte do texto */
+        font-size: 20px; 
+    }
+
+    .header-img.center {
+        max-width: 50px;
+        
     }
 }
 
+/*  400px */
 @media (max-width: 400px) {
     .header-img {
-        max-width: 50px; /* Reduz ainda mais o tamanho dos ícones da header */
+        max-width: 50px; 
     }
 
     .header-text {
-        font-size: 18px; /* Reduz ainda mais o tamanho da fonte do texto */
+        font-size: 18px; 
     }
 
-    
+    .header-content {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .header-item {
+        margin-bottom: 10px;
+    }
 }
