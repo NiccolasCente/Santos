@@ -58,7 +58,11 @@ import NeymarGansoElano2012 from "../../../assets/Santos2009/NeymarGansoElano201
 import NeymarInternacional2012 from "../../../assets/Santos2009/NeymarInternacional2012.webp"
 import NeymarOitavas2012 from "../../../assets/Santos2009/NeymarOitavas2012.jpg";
 import RafaelCabral from "../../../assets/Santos2009/RafaelCabral.jpg";
-
+import NeymarSemiLiberta2012 from "../../../assets/Santos2009/NeymarSemiLiberta2012.jpg";
+import NeymarRecopa2012 from "../../../assets/Santos2009/NeymarRecopa2012.jpg";
+import NeymarTitulo2012 from "../../../assets/Santos2009/NeymarTitulo2012.jpg";
+// Ano 2013
+import Neymar2013 from "../../../assets/Santos2009/Neymar2013.jpg";
 
 const Santos2009_2013 = () => {
     const { theme } = useContext(ThemeContext);
@@ -1067,6 +1071,96 @@ const Santos2009_2013 = () => {
                    <AnimatedScroll animationClass="animate-hidden">
                     <p className="p-subsection">O Menino da Vila Rafael Cabral foi o Herói das Quartas de Final da Libertadores 2012 pelo Peixão</p>
                    </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Como dito no começo, a "Neymar dependência" neste ano aumentou devido aos problemas já ditos, como montagem de elenco,
+                      reposições fracas, e o trabalho de Muricy já quase totalmente desgastado. 
+                      <br></br>
+                      <br></br>
+                      O que salvava esse Santos, era o Neymar, o Menino da Vila, SOZINHO 
+                      ganhava vários jogos, todos os ataques perigosos saíram do pé dele, já que Ganso e Elano já estavam totalmente em decadência, e Ganso esse que 
+                      desde o final de 2011 travava brigas contra a diretoria por não se sentir valorizado como Neymar, o que causou sua saída do time no meio de 2012
+                      para o São Paulo Futebol Clube.
+                    </p>
+                   </AnimatedScroll> 
+
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Mas o Corinthians nada tinha haver com esses problemas internos, e pela SemiFinal, ganharam de 1x0, na Vila Belmiro,
+                      com golaço de Emerson Sheik. E na partida de volta, no Pacaembu, um empate de 1x1, com gols de Neymar e Zidanilo, o empate já classificava o Timão
+                      para a Grande Final contra o Boca Juniors. 
+                      <br></br>O Sonho de Tetra acabou!
+                    </p>
+                   </AnimatedScroll> 
+
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarSemiLiberta2012} className="img-section" alt="Neymar SemiFinal Libertadores 2012"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar depois de marcar o gol contra o Corinthians na SemiFinal da Libertadores 2012 no Pacaembu</p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection">O último título Da Geração Neymar e Ganso</h2>
+                   </AnimatedScroll> 
+
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarRecopa2012} className="img-section" alt="Neymar com o título da Recopa 2012"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar com o título da Recopa 2012</p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">No segundo semestre de 2012, o Peixão levantou mais uma taça, a da <strong style={{color: "#007bff"}}>Recopa Sul-Americana 2012</strong>!
+                    <br></br>
+                    Depois de um primeiro jogo de Ida apático, que terminou em um 0x0, na Volta, no Pacaembu, o Peixe ganhou por 2x0, com gols de Neymar e Bruno Rodrigo!
+                    </p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection">O Brasileirão 2012</h2>
+                   </AnimatedScroll> 
+
+                   
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={NeymarTitulo2012} className="img-section" alt="Neymar com o título da Recopa "/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar na Recopa 2012</p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Assim como no <strong style={{color: "#007bff"}}> Campeonato Brasileiro 2011</strong>, o
+                    <strong style={{color: "#007bff"}}> Campeonato Brasileiro 2012</strong> foi fraco e ficou apenas em 8º colocado, simbolizando
+                    assim o final da temporada de 2012 do Santos, sem a presença de PH Ganso e sem a classificação para a <strong style={{color: "#007bff"}}> 
+                      Libertadores da América de 2013</strong>.
+                    </p>
+                   </AnimatedScroll> 
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <h2 className="h2-subsection">O Ano de 2013, O Fim da Geração Neymar e Ganso e a Despedida do Craque</h2>
+                   </AnimatedScroll> 
+
+                      
+                   <AnimatedScroll animationClass="animate-hidden">
+                   <img src={Neymar2013} className="img-section" alt="Neymar em 2013"/> 
+                   </AnimatedScroll>
+
+                   <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Neymar pelo Campeonato Paulista 2013</p>
+                   </AnimatedScroll> 
+
+
+
+
+
+
 
 
 
