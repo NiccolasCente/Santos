@@ -1,4 +1,3 @@
-/* Estilos padrões */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -9,12 +8,12 @@
   border: none;
   cursor: pointer;
   font-size: 16px;
-  color: var(--dropdown-text-light); /* Cor padrão do texto para o tema claro */
+  color: var(--dropdown-text-light); 
   font-family: 'Jockey One', sans-serif;
 }
 
 .dropdown-toggle:hover {
-  color: var(--dropdown-hover-light); /* Cor azul para o tema claro */
+  color: var(--dropdown-hover-light); 
 }
 
 .dropdown-menu {
@@ -23,7 +22,7 @@
   top: 100%;
   left: 0;
   min-width: 200px;
-  background-color: var(--dropdown-bg-light); /* Cor de fundo padrão para o tema claro */
+  background-color: var(--dropdown-bg-light); 
   border: 1px solid #ddd;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -37,35 +36,35 @@
 .dropdown-item {
   display: block;
   padding: 10px;
-  color: var(--dropdown-text-light); /* Cor do texto para o tema claro */
+  color: var(--dropdown-text-light); 
   text-decoration: none;
   font-family: 'Jockey One', sans-serif;
   font-size: 16px;
 }
 
 .dropdown-item:hover {
-  background-color: var(--dropdown-hover-light); /* Cor de fundo azul para o hover no tema claro */
-  color: #fff; /* Texto branco ao passar o mouse no tema claro */
+  background-color: var(--dropdown-hover-light); 
+  color: #fff; 
 }
 
-/* Estilos para o tema escuro */
+/*  tema escuro */
 .dark .dropdown-toggle {
-  color: var(--dropdown-text-dark); /* Texto branco para o tema escuro */
+  color: var(--dropdown-text-dark); 
 }
 
 .dark .dropdown-toggle:hover {
-  color: var(--dropdown-hover-dark); /* Cor azul para o tema escuro */
+  color: var(--dropdown-hover-dark); 
 }
 
 .dark .dropdown-menu {
-  background-color: var(--dropdown-bg-dark); /* Fundo escuro para o menu */
+  background-color: var(--dropdown-bg-dark); 
 }
 
 .dark .dropdown-item {
-  color: var(--dropdown-text-dark); /* Texto branco para o tema escuro */
+  color: var(--dropdown-text-dark); 
 }
 
 .dark .dropdown-item:hover {
-  background-color: var(--dropdown-hover-dark); /* Cor azul para o hover no tema escuro */
-  color: #fff; /* Texto branco ao passar o mouse no tema escuro */
+  background-color: var(--dropdown-hover-dark); 
+  color: #fff; 
 }

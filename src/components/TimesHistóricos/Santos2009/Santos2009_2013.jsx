@@ -1090,7 +1090,7 @@ const Santos2009_2013 = () => {
                    
                    <AnimatedScroll animationClass="animate-hidden">
                     <p className="p-subsection">Mas o Corinthians nada tinha haver com esses problemas internos, e pela SemiFinal, ganharam de 1x0, na Vila Belmiro,
-                      com golaço de Emerson Sheik. E na partida de volta, no Pacaembu, um empate de 1x1, com gols de Neymar e Zidanilo, o empate já classificava o Timão
+                      com golaço de Emerson Sheik. E na partida de volta, no Pacaembu, um empate de 1x1, com gols de Neymar e Zidanilo, o empate já classificava o Corinthians
                       para a Grande Final contra o Boca Juniors. 
                       <br></br>O Sonho de Tetra acabou!
                     </p>

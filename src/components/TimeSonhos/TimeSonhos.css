@@ -1,0 +1,23 @@
+.time-do-sonhos img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #FFFFFF;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .time-do-sonhos img:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+
+  @media (max-width: 400px) {
+    .time-do-sonhos img {
+        max-width: 90%; 
+    }
+}
+
+@media (max-width: 450px) {
+  .time-do-sonhos img {
+      max-width: 95%; 
+  }
+}

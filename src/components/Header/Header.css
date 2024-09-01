@@ -202,6 +202,15 @@ body{
         max-width: 60px;
         
     }
+
+    .theme-toggle-button {
+        
+        top: 110px;
+        right: 100px;
+        bottom: 40px;
+        
+        
+    }
 }
 
 /*  420px */
@@ -218,6 +227,14 @@ body{
         max-width: 50px;
         
     }
+
+    .theme-toggle-button {
+        
+        top: 1px;
+        right: 160px;
+        bottom: 20px;
+    }
+    
 }
 
 /*  400px */
@@ -230,10 +247,6 @@ body{
         font-size: 18px; 
     }
 
-    .header-content {
-        flex-direction: column; 
-        text-align: center;
-    }
 
     .header-item {
         margin-bottom: 10px;
