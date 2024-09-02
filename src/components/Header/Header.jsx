@@ -25,6 +25,7 @@ const Header = () => {
   const jogadoresHistoricosItems = [
     { path: "/jogadores-historicos/pepe", label: "Pepé" },
     { path: "/jogadores-historicos/coutinho", label: "Coutinho" },
+    { path: "/jogadores-historicos/zito", label: "Zito" },
     { path: "/jogadores-historicos/edu", label: "Edu" },
     { path: "/jogadores-historicos/clodoaldo", label: "Clodoaldo" },
     { path: "/jogadores-historicos/diego", label: "Diego" },

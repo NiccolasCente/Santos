@@ -325,7 +325,7 @@ const Santos2009_2013 = () => {
                    titles="Campeonato Paulista 2010"
                    titles2="Copa do Brasil 2010"
                    titles4="Recopa Sul-Americana 2012"
-                   position="Centroavante"
+                   position="Centro-Avante"
                    number="9"
                    stats="Partidas: 94 | Gols: 46"
                    life={[
