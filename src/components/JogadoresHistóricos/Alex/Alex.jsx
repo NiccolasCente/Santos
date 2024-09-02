@@ -19,15 +19,15 @@ const Alex = () => {
                     <Col xs={12} md={10} lg={8}>
                         <div className="text-center">
                             <AnimatedScroll animationClass="animate-hidden">
-                                <h1 className="h1-subsection mb-4">
+                                <h1 className="h1-subsection-players">
                                  Alex, o Canhão da Vila
                                 </h1>
                                 <img
                                     src={AlexSantos}
                                     className="img-section mb-4"
-                                    alt="Pepe"
+                                    alt="Alex"
                                 />
-                                <p className="p-subsection mb-4">
+                                <p className="p-subsection-players">
                                 Alex, o Canhão da Vila
                                 </p>
                             </AnimatedScroll>

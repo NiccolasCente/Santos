@@ -19,15 +19,15 @@ const Clodoaldo= () => {
                     <Col xs={12} md={10} lg={8}>
                         <div className="text-center">
                             <AnimatedScroll animationClass="animate-hidden">
-                                <h1 className="h1-subsection mb-4">
+                                <h1 className="h1-subsection-players">
                                     Clodolado, o Corró
                                 </h1>
                                 <img
                                     src={ClodoaldoSantos}
                                     className="img-section mb-4"
-                                    alt="Pepe"
+                                    alt="Clodoaldo"
                                 />
-                                <p className="p-subsection mb-4">
+                                <p className="p-subsection-players">
                                 Clodolado, o Corró
                                 </p>
                             </AnimatedScroll>

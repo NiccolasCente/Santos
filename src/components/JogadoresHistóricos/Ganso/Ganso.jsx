@@ -19,7 +19,7 @@ const Ganso = () => {
                     <Col xs={12} md={10} lg={8}>
                         <div className="text-center">
                             <AnimatedScroll animationClass="animate-hidden">
-                                <h1 className="h1-subsection mb-4">
+                                <h1 className="h1-subsection-players">
                                 Paulo Henrique Ganso, o Maestro
                                 </h1>
                                 <img
@@ -27,7 +27,7 @@ const Ganso = () => {
                                     className="img-section mb-4"
                                     alt="Ganso"
                                 />
-                                <p className="p-subsection mb-4">
+                                <p className="p-subsection-players">
                                 Paulo Henrique Ganso, o Maestro
                                 </p>
                             </AnimatedScroll>

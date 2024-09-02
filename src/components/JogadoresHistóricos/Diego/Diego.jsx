@@ -19,15 +19,15 @@ const Diego= () => {
                     <Col xs={12} md={10} lg={8}>
                         <div className="text-center">
                             <AnimatedScroll animationClass="animate-hidden">
-                                <h1 className="h1-subsection mb-4">
+                                <h1 className="h1-subsection-players">
                                 Diego Ribas, o Menino da Vila Camisa 10
                                 </h1>
                                 <img
                                     src={DiegoSantos}
                                     className="img-section mb-4"
-                                    alt="Pepe"
+                                    alt="Diego"
                                 />
-                                <p className="p-subsection mb-4">
+                                <p className="p-subsection-players">
                                 Diego Ribas, o Menino da Vila Camisa 10
                                 </p>
                             </AnimatedScroll>

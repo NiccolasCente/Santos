@@ -9,6 +9,9 @@ import Player from "../../common/Player/Player";
 import PepeSantos from "../../../assets/Pepe/Pepe.jpg";
 import PepePlayer from "../../../assets/Pepe/PepePlayer.jpg";
 
+//Componente CSS
+import "../../../assets/styles/PlayersSections.css";
+
 const Pepe = () => {
     const { theme } = useContext(ThemeContext);
 
@@ -19,7 +22,7 @@ const Pepe = () => {
                     <Col xs={12} md={10} lg={8}>
                         <div className="text-center">
                             <AnimatedScroll animationClass="animate-hidden">
-                                <h1 className="h1-subsection mb-4">
+                                <h1 className="h1-subsection-players">
                                     Pepé, O Canhão da Vila
                                 </h1>
                                 <img
@@ -27,7 +30,7 @@ const Pepe = () => {
                                     className="img-section mb-4"
                                     alt="Pepe"
                                 />
-                                <p className="p-subsection mb-4">
+                                <p className="p-subsection-players">
                                     Pepé, O Canhão da Vila
                                 </p>
                             </AnimatedScroll>
