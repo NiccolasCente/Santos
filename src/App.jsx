@@ -7,7 +7,7 @@ import ScrollTop from "./components/common/ScrollTop/ScrollTop";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import TimeSonhos from "./components/TimeSonhos/TimeSonhos";
-
+import Contato from "./components/Contato/Contato";
 //Import SubSections Times Históricos
 import Santos2002_2005 from "../src/components/TimesHistóricos/Santos2002/Santos2002_2005";
 import Santos2009_2013 from "../src/components/TimesHistóricos/Santos2009/Santos2009_2013";
@@ -50,6 +50,8 @@ function App() {
           <Route path="/jogadores-historicos/ph-ganso" element={<Ganso />} />
           //Time Sonhos
           <Route path="/time-do-sonhos" element={<TimeSonhos />} />
+          // Contato
+          <Route path="/contato" element={<Contato />} />
         </Routes>
       </Router>
     </ThemeProvider>

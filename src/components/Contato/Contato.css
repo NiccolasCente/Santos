@@ -1,0 +1,101 @@
+.contato {
+  padding: 60px 0;
+}
+
+.contato .content-wrapper {
+  display: flex;
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+}
+
+.h1-subsection {
+  margin-bottom: 20px;
+  
+}
+
+.p-subsection {
+  font-size: 18px;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+.img-section-contato {
+  width: 400px; 
+  height: 400px; 
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+  object-fit: contain; 
+}
+
+.img-section-contato:hover {
+  transform: translateY(-10px); 
+}
+
+.contact-icons {
+  margin-top: 20px;
+  text-align: center; 
+}
+
+.contact-icons a {
+  margin: 0 15px; 
+  transition: transform 0.3s ease;
+}
+
+.contact-icons a:hover {
+  transform: translateY(-8px);
+}
+
+.text-content {
+  margin-left: 1em; 
+  max-width: 450px; 
+  flex: 1; 
+}
+
+@media (max-width: 500px) {
+  .text-content {
+    max-width: 400px; 
+  }
+}
+
+@media (max-width: 450px) {
+  .text-content {
+    max-width: 350px; 
+  }
+  .h1-subsection {
+    margin-top: 20px;
+    margin-left: 1em;
+
+    
+  }
+}
+
+@media (max-width: 420px) {
+  .text-content {
+    max-width: 300px; 
+  }
+
+  .h1-subsection {
+    margin-top: 20px;
+    margin-left: 1em;
+
+    
+  }
+}
+
+@media (max-width: 400px) {
+  .text-content {
+    max-width: 250px; 
+  }
+
+  .h1-subsection {
+    margin-top: 20px;
+    margin-left: 1em;
+
+    
+  }
+
+  .img-section-contato {
+    width: 100%; 
+    max-width: 300px; 
+  }
+}
