@@ -54,7 +54,7 @@ const Santos2002_2005 = () => {
                 <img src={Time2002} className="img-section" alt="Time de 2002" />
               </AnimatedScroll>
               <AnimatedScroll animationClass="animate-hidden">
-                <p className="p-subsection">Escalação do time titular na final de 2002!</p>
+                <p className="p-subsection">Escalação do time titular na final do Brasileiro de 2002!</p>
               </AnimatedScroll>
               <AnimatedScroll animationClass="animate-hidden">
                 <h4 className="h4-subsection">Títulos Ganhos:</h4>
@@ -71,7 +71,7 @@ const Santos2002_2005 = () => {
                 <img src={TimeFoto01} className="img-section" alt="Time Comemorando"/>
               </AnimatedScroll>
               <AnimatedScroll animationClass="animate-hidden">
-                <p className="p-subsection">Após anos e anos de marasmo, aquele time que encantou o Brasil na década de 60 com O Rei Pelé e seu parceiro Coutinho, na década de 2000, não passava de um clube pobre e que não disputava nada.</p>
+                <p className="p-subsection">Após anos e anos de marasmo, aquele time que encantou o Brasil na década de 60 com O Rei Pelé e seu parceiro Coutinho, na década de 90 e começo de 2000, não passava de um clube pobre e que não disputava nada.</p>
                 <p className="p-subsection">Pelo fato de terem comprado jogadores caros e que não renderam nenhum título e consequentemente dinheiro, o Santos começou a entrar em falência, fazendo com que assim, voltassem a usar a única coisa que deu sucesso para o clube em seus 110 anos(90 na época), A BASE.</p>
               </AnimatedScroll>
               <br></br>
@@ -90,7 +90,7 @@ const Santos2002_2005 = () => {
                   number="10"
                   stats="Partidas: 133 | Gols: 38"
                   life={[
-                    "Um habilidoso meia que chutava muito bem de fora da área e armava muito bem o jogo, além de dribles e muito velocidade, estreou no profissional com apenas de 16 anos e com a 10 do Rei Pelé.",
+                    "Um habilidoso meia que chutava muito bem de fora da área e armava muito bem o jogo, além de dribles e muito velocidade, estreou no profissional com apenas 16 anos e com a 10 do Rei Pelé.",
                     "Encerrou sua passagem pelo Santos em 2004, indo para o Porto por 8 milhões de euros."
                   ]}
                 />

@@ -20,13 +20,6 @@
 .dark .p-subsection,
 .dark .p-subsection-intro {
     font-family: "Jockey One", sans-serif;
-}
-
-.dark .h1-subsection,
-.dark .h2-subsection,
-.dark .h4-subsection,
-.dark .p-subsection,
-.dark .p-subsection-intro {
     color: #FFFFFF;
 }
 
@@ -37,15 +30,9 @@
 .light .p-subsection,
 .light .p-subsection-intro {
     font-family: "Jockey One", sans-serif;
-}
-
-.light .h1-subsection,
-.light .h2-subsection,
-.light .h4-subsection,
-.light .p-subsection,
-.light .p-subsection-intro {
     color: #000000;
 }
+
 
 /* ANIMAÇÃO */
 .animate {

@@ -8,12 +8,11 @@
   flex-wrap: wrap; 
 }
 
-.h1-subsection {
+.contato__heading {
   margin-bottom: 20px;
-  
 }
 
-.p-subsection {
+.contato__paragraph {
   font-size: 18px;
   margin-top: 2em;
   margin-left: 1em;
@@ -25,6 +24,7 @@
   transition: transform 0.3s ease;
   margin-bottom: 20px;
   object-fit: contain; 
+  
 }
 
 .img-section-contato:hover {
@@ -61,11 +61,9 @@
   .text-content {
     max-width: 350px; 
   }
-  .h1-subsection {
+  .contato__heading {
     margin-top: 20px;
     margin-left: 1em;
-
-    
   }
 }
 
@@ -74,11 +72,9 @@
     max-width: 300px; 
   }
 
-  .h1-subsection {
+  .contato__heading {
     margin-top: 20px;
     margin-left: 1em;
-
-    
   }
 }
 
@@ -87,11 +83,9 @@
     max-width: 250px; 
   }
 
-  .h1-subsection {
+  .contato__heading {
     margin-top: 20px;
     margin-left: 1em;
-
-    
   }
 
   .img-section-contato {
