@@ -11,12 +11,18 @@ import TimeSonhos from "./components/TimeSonhos/TimeSonhos";
 //Import SubSections Times Históricos
 import Santos2002_2005 from "../src/components/TimesHistóricos/Santos2002/Santos2002_2005";
 import Santos2009_2013 from "../src/components/TimesHistóricos/Santos2009/Santos2009_2013";
+
 //Import JogadoresHistóricos
 import Pepe from "../src/components/JogadoresHistóricos/Pepe/Pepe";
 import Coutinho from "../src/components/JogadoresHistóricos/Coutinho/Coutinho";
 import Zito from "../src/components/JogadoresHistóricos/Zito/Zito";
 import Edu from "../src/components/JogadoresHistóricos/Edu/Edu";
-
+import Clodoaldo from "./components/JogadoresHistóricos/Clodoaldo/Clodoaldo";
+import Diego from "./components/JogadoresHistóricos/Diego/Diego";
+import Elano from "./components/JogadoresHistóricos/Elano/Elano";
+import Alex from "./components/JogadoresHistóricos/Alex/Alex";
+import Neymar from "./components/JogadoresHistóricos/Neymar/Neymar";
+import Ganso from "./components/JogadoresHistóricos/Ganso/Ganso";
 // Import CSS
 import "./App.css";
 
@@ -36,6 +42,12 @@ function App() {
           <Route path="/jogadores-historicos/coutinho" element={<Coutinho />} />
           <Route path="/jogadores-historicos/zito" element={<Zito />} />
           <Route path="/jogadores-historicos/edu" element={<Edu />} />
+          <Route path="/jogadores-historicos/clodoaldo" element={<Clodoaldo />} />
+          <Route path="/jogadores-historicos/diego" element={<Diego />} />
+          <Route path="/jogadores-historicos/elano" element={<Elano />} />
+          <Route path="/jogadores-historicos/alex" element={<Alex />} />
+          <Route path="/jogadores-historicos/neymar" element={<Neymar />} />
+          <Route path="/jogadores-historicos/ph-ganso" element={<Ganso />} />
           //Time Sonhos
           <Route path="/time-do-sonhos" element={<TimeSonhos />} />
         </Routes>
