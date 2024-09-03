@@ -1031,7 +1031,7 @@ const Santos2009_2013 = () => {
 
                    <AnimatedScroll animationClass="animate-hidden">
                     <p className="p-subsection">Pela <strong style={{color:"#007bff"}}>Copa Libertadores da América de 2012</strong>, o Peixe com o protagonismo
-                    de Neymar, somou 4 vitórias, 1 empate e 1 derrota pela fase de grupos. Uma menção honrosa é para o jogo HISTÓRICO, onde Neymar marcou um Hat-Trick, 
+                    de Neymar, somou 4 vitórias, 1 empate e 1 derrota pela fase de grupos. Uma menção honrosa é para o jogo HISTÓRICO contra o Internacional, onde Neymar marcou um Hat-Trick, 
                     sendo 2 desses golaços dignos de Puskás.
                     </p>
                    </AnimatedScroll> 
@@ -1139,7 +1139,7 @@ const Santos2009_2013 = () => {
                    </AnimatedScroll> 
 
                    <AnimatedScroll animationClass="animate-hidden">
-                    <p className="p-subsection">Assim como no <strong style={{color: "#007bff"}}> Campeonato Brasileiro 2011</strong>, o
+                    <p className="p-subsection">Assim como no <strong style={{color: "#007bff"}}> Campeonato Brasileiro 2011</strong>, o Santos no
                     <strong style={{color: "#007bff"}}> Campeonato Brasileiro 2012</strong> foi fraco e ficou apenas em 8º colocado, simbolizando
                     assim o final da temporada de 2012 do Santos, sem a presença de PH Ganso e sem a classificação para a <strong style={{color: "#007bff"}}> 
                       Libertadores da América de 2013</strong>.
@@ -1162,7 +1162,7 @@ const Santos2009_2013 = () => {
                    <AnimatedScroll animationClass="animate-hidden">
                     <p className="p-subsection">O  <strong style={{color: "#007bff"}}> Campeonato Paulista 2013</strong>  foi aquele que todos os torcedores Santistas sabiam que,
                       seria o último de Neymar pela camisa do Santos, afinal depois de tudo que ele fez, era impossível segurar um 
-                      jogador dessa categoria, e realemnte ele saiu.
+                      jogador dessa categoria, e ele realmente saiu.
                       <br></br>
                       <br></br>
                       Foi vendido por 88 milhões de euros para o Barcelona da Espanha, onde também virou ídolo e ganhou uma <strong style={{color: "#007bff"}}> UEFA Champions League</strong>, inclusive 

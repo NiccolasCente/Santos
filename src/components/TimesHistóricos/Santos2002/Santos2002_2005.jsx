@@ -70,6 +70,11 @@ const Santos2002_2005 = () => {
               <AnimatedScroll animationClass="animate-hidden">
                 <img src={TimeFoto01} className="img-section" alt="Time Comemorando"/>
               </AnimatedScroll>
+
+              <AnimatedScroll animationClass="animate-hidden">
+                <p className="p-subsection">Os Meninos da Vila comemorando um gol</p>
+              </AnimatedScroll>
+
               <AnimatedScroll animationClass="animate-hidden">
                 <p className="p-subsection">Após anos e anos de marasmo, aquele time que encantou o Brasil na década de 60 com O Rei Pelé e seu parceiro Coutinho, na década de 90 e começo de 2000, não passava de um clube pobre e que não disputava nada.</p>
                 <p className="p-subsection">Pelo fato de terem comprado jogadores caros e que não renderam nenhum título e consequentemente dinheiro, o Santos começou a entrar em falência, fazendo com que assim, voltassem a usar a única coisa que deu sucesso para o clube em seus 110 anos(90 na época), A BASE.</p>
@@ -150,6 +155,10 @@ const Santos2002_2005 = () => {
               </AnimatedScroll>
 
               <AnimatedScroll animationClass="animate-hidden">
+                  <h2 className="h2-subsection">Antes do Brasileiro</h2>
+                </AnimatedScroll>
+
+              <AnimatedScroll animationClass="animate-hidden">
                 <p className="p-subsection">Agora que pincelamos as principais estrelas do time naquele ano, iremos falar um pouco sobre como foi o ano do Santos em 2002. Depois de um torneio RIO-SP fraco, o Santos
                   era forte candidato ao rebaixamento, tanto pelos graves problemas financeiros e por metade do time titular ser de garotos da base com menos de 19 anos.</p>
                 <p className="p-subsection">O Santos fez um campeonato brasileiro apenas razoável e se classificou para o mata-mata graças a outros resultados, fazendo com que assim o Santos fosse o último da lista para jogar o mata-mata, e logo de cara, pegaria o São Paulo na Vila Belmiro.</p>
@@ -159,6 +168,10 @@ const Santos2002_2005 = () => {
                 <img src={Saonsao} className="img-section" alt="Sansão na Vila" />
                 <p className="p-subsection">Robinho escapando de falta do jogador São Paulino</p>
               </AnimatedScroll>
+
+              <AnimatedScroll animationClass="animate-hidden">
+                  <h2 className="h2-subsection">O Histórico Mata-Mata</h2>
+                </AnimatedScroll>
 
               <AnimatedScroll animationClass="animate-hidden">
                 <p className="p-subsection">No primeiro jogo na Vila Belmiro, o Santos mostrou toda a sua capacidade ofensiva e, com gols de Alberto, 
@@ -176,7 +189,10 @@ const Santos2002_2005 = () => {
               <AnimatedScroll animationClass="animate-hidden">
                 <p className="p-subsection">O próximo desafio do time da baixada era o Grêmio e com mais um show de futebol, ganharam deles com sobras na Vila Belmiro
                    por 3x0 e com mais um show de Robinho, porém no jogo de volta perderam por 1x0, mas já não importava mais, pois no placar agregado ficaria 3x1,
-                    e o mais importante, a tão desejada vaga na final. E sonho esse, que parecia impossível para eles no começo do campeonato, depois de 7 anos,
+                    e o mais importante, a tão desejada vaga na final. 
+                    <br></br>
+                    <br></br>
+                    E sonho esse, que parecia impossível para eles no começo do campeonato, depois de 7 anos,
                      o Santos voltava a disputar uma final de brasileiro.</p>
               </AnimatedScroll>
 
@@ -190,6 +206,10 @@ const Santos2002_2005 = () => {
                 <p className="p-subsection">O útlimo adversário não poderia ser outro, era o Corinthians, um dos maiores rivais do Peixe e com um time que vinha embalado com 2 títulos no ano,
                  <strong style={{color:"#007bff"}}> Copa do Brasil 2002 </strong>e o <strong style={{color: "#007bff"}}>Torneio Rio São Paulo 2002</strong>. Ambos os jogos seriam no Morumbi.
                 </p>
+              </AnimatedScroll>
+
+              <AnimatedScroll animationClass="animtae-hidden">
+                <h2 className="h2-subsection">A Grande Final Do Brasileiro 2002</h2>
               </AnimatedScroll>
 
               <AnimatedScroll animationClass="animate-hidden">
@@ -264,6 +284,10 @@ const Santos2002_2005 = () => {
                   <p className="p-subsection"> Nas semi finais, enfrentaram o Independiente Medellín(COL), com o resultado de 1x0 na Vila, e 3X2, fora.</p>
                   <p className="p-subsection">Infelizmente, para o azar dos Meninos da Vila(que vinham fazendo história, afinal uma equipe só de garotos chegar em uma Final de Taça Libertadores, com um time QUE apesar de grande, estava há 19 anos sem disputar a competição, por si só já era um grande feito),
                      eles pegariam o destemido BOCA JUNIORS na grande final.</p>
+                 </AnimatedScroll>
+
+                 <AnimatedScroll animationClass="animate-hidden">
+                  <h2 className="h2-subsection">A Final da Taça Libertadores da América 2003</h2>
                  </AnimatedScroll>
 
                  <AnimatedScroll animationClass="animate-hidden">
