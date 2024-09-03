@@ -23,8 +23,12 @@ import Elano from "./components/JogadoresHistóricos/Elano/Elano";
 import Alex from "./components/JogadoresHistóricos/Alex/Alex";
 import Neymar from "./components/JogadoresHistóricos/Neymar/Neymar";
 import Ganso from "./components/JogadoresHistóricos/Ganso/Ganso";
+//Import Títulos Históricos
+import CopaLibertadores2011 from "./components/TítulosHistóricos/CopaLibertadores2011";
+
 // Import CSS
 import "./App.css";
+
 
 function App() {
   return (
@@ -48,6 +52,8 @@ function App() {
           <Route path="/jogadores-historicos/alex" element={<Alex />} />
           <Route path="/jogadores-historicos/neymar" element={<Neymar />} />
           <Route path="/jogadores-historicos/ph-ganso" element={<Ganso />} />
+          //Títulos Históricos
+          <Route path="/titulos-historicos/copa-libertadores-2011" element={<CopaLibertadores2011 />} />
           //Time Sonhos
           <Route path="/time-do-sonhos" element={<TimeSonhos />} />
           // Contato

@@ -39,13 +39,13 @@ const Main = () => {
           <Col xs={6} className="d-flex flex-column align-items-center right-column">
             <div className="image-wrapper mb-3">
               <img src={Main2} alt="Imagem 3" className="img-fluid" />
-              <Link to="/libertadores-2011" className="link-text">
+              <Link to="/titulos-historicos/copa-libertadores-2011" className="link-text">
                 <div className="image-text">Títulos Históricos - Copa Libertadores da América 2011</div>
               </Link>
             </div>
             <div className="image-wrapper">
               <img src={Main4} alt="Imagem 4" className="img-fluid" />
-              <Link to="/neymar-jr" className="link-text">
+              <Link to="/jogadores-historicos/neymar" className="link-text">
                 <div className="image-text">Neymar Jr.</div>
               </Link>
             </div>

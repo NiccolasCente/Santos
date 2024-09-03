@@ -250,7 +250,7 @@ const Santos2002_2005 = () => {
 
               <AnimatedScroll animationClass="animate-hidden">
                 <img src={Ano2003} className="img-section" alt="Elenco 2003"/>
-                <p className="p-subsection">Time Titular do Santoa na Final da Taça Libertadores da América</p>
+                <p className="p-subsection">Time Titular do Santos na Final da Taça Libertadores da América</p>
               </AnimatedScroll>
               <br></br>
 
