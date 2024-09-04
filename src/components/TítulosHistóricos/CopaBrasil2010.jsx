@@ -14,6 +14,9 @@ import Remo from "../../assets/CopaDoBrasil2010/Remo.jpg";
 import Guarani from "../../assets/CopaDoBrasil2010/Guarani.avif";
 import AtleticoMG from "../../assets/CopaDoBrasil2010/AtleticoMG.jpeg";
 import Gremio from "../../assets/CopaDoBrasil2010/Gremio.jpg";
+import CopaMundo from "../../assets/CopaDoBrasil2010/CopaMundo.jpg";
+import Vitoria from "../../assets/CopaDoBrasil2010/Vitoria.jpg";
+import Time2010 from "../../assets/CopaDoBrasil2010/Time2010.jpg";
 
 const CopaBrasil2010 = () => {
     const { theme } = useContext(ThemeContext);
@@ -138,6 +141,54 @@ const CopaBrasil2010 = () => {
                     mata-mata.
                     </p>
                 </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden"> 
+                    <img src={CopaMundo} className="img-section" alt="Copa do Mundo"/>
+                    <p className="p-subsection">Robinho Pela Seleção Brasileira</p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Em julho, o Santos começou a decidir o título da <strong style={{color: "#007bff"}}>Copa do Brasil</strong> contra o
+                     Vitória. Na primeira partida, na Vila Belmiro, Neymar e Marquinhos fizeram os gols da vitória por 2x0, inclusive com Neymar perdendo um pênalti.
+                     <br></br>
+                     <br></br>
+                     Na Volta, em Salvador, o Edu Dracena abriu o placar para o Santos ainda no primeiro tempo, o Vitória virou a partida e fez um 2x1 na segunda etapa,
+                     porém não foi o suficiente para impedir o título do maior time do Peixão no século XXI.
+                     </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden"> 
+                    <img src={Vitoria} className="img-section" alt="Neymar Final Copa do Brasil 2010"/>
+                    <p className="p-subsection">Neymar Depois de Marcar um Gol Decisivo Contra o Vitória Na Final da Copa do Brasil 2010</p>
+                </AnimatedScroll>
+
+                
+                <AnimatedScroll animationClass="animate-hidden"> 
+                    <h2 className="h2-subsection">O Legado do Santos de 2010</h2>
+                    <p className="p-subsection">Além da Taça, o Santos teve o MELHOR ataque da HISTÓRIA da competição. 39 gols em 11 jogos, média de 3,5 gols por 
+                        jogo. Era a segunda taça no ano, feito esse que o Peixe não repetia desde a época do Rei Pelé, em 1968.
+                        <br></br>
+                        <br></br>
+                        Foi também o título que deu a vaga para a <strong style={{color: "#007bff"}}>Copa Libertadores Da América de 2011</strong> , torneio esse que Neymar faria
+                            história!
+                         <br></br>
+                        </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden"> 
+                    <p className="p-subsection"> Infelizmente após esse título, o time foi desmanchado, Robinho foi para o Milan, André e Wesley foram vendidos, Dorival foi demitido, além é obvío,
+                          da triste lesão no joelho de Paulo Henrique, no jogo contra o Grêmio.
+                          <br></br>
+                          <br></br>
+                          Mas algo é inegável, esse time foi um fenômeno cultural, o último do Santos a ser um ícone pop em que até mesmo os rivais paravam para assitir.
+                          Foram para programas de TV, deram milhares de entrevistas e ect. Esse com certeza é o time da minha VIDA! </p>
+                </AnimatedScroll>
+
+                <AnimatedScroll animationClass="animate-hidden"> 
+                    <img src={Time2010} className="img-section" alt="Time Titular do Santos em 2010"/>
+                    <p className="p-subsection">Time Titular do Santos em 2010</p>
+                </AnimatedScroll>
+
 
   
              </div>
