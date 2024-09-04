@@ -128,6 +128,17 @@ const CopaBrasil2010 = () => {
                     <h2 className="h2-subsection">A Grande Final da Copa do Brasil</h2>
                 </AnimatedScroll>
 
+                <AnimatedScroll animationClass="animate-hidden">
+                    <p className="p-subsection">Em Junho/Julho, o time entrou de férias por causa da 
+                    <strong style={{color: "#007bff"}}> Copa do Mundo</strong> e o Brasil inteiro esperava que
+                    Dunga, técnico da seleção na época, fosse convocar as joias santistas, Neymar e PH Ganso, o que
+                    acabou não se concretizando.
+                    <br></br>
+                    O Brasil foi eliminado nas Quartas de Final pela Holanda, com o Santista Robinho sendo um dos destaques do
+                    mata-mata.
+                    </p>
+                </AnimatedScroll>
+
   
              </div>
             </Col>
