@@ -1129,7 +1129,6 @@ const Santos2009_2013 = () => {
                     <h2 className="h2-subsection">O Brasileirão 2012</h2>
                    </AnimatedScroll> 
 
-                   
                    <AnimatedScroll animationClass="animate-hidden">
                    <img src={NeymarTitulo2012} className="img-section" alt="Neymar com o título da Recopa "/> 
                    </AnimatedScroll>
