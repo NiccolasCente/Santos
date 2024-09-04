@@ -24,6 +24,7 @@ import Alex from "./components/JogadoresHistóricos/Alex/Alex";
 import Neymar from "./components/JogadoresHistóricos/Neymar/Neymar";
 import Ganso from "./components/JogadoresHistóricos/Ganso/Ganso";
 //Import Títulos Históricos
+import CampeonatoPaulista2010 from "./components/TítulosHistóricos/CampeonatoPaulista2010";
 import CopaBrasil2010 from "./components/TítulosHistóricos/CopaBrasil2010";
 import CopaLibertadores2011 from "./components/TítulosHistóricos/CopaLibertadores2011";
 
@@ -54,6 +55,7 @@ function App() {
           <Route path="/jogadores-historicos/neymar" element={<Neymar />} />
           <Route path="/jogadores-historicos/ph-ganso" element={<Ganso />} />
           //Títulos Históricos
+          <Route path="/titulos-historicos/campeonato-paulista-2010" element={<CampeonatoPaulista2010 />} />
           <Route path="/titulos-historicos/copa-do-brasil-2010" element={<CopaBrasil2010 />} />
           <Route path="/titulos-historicos/copa-libertadores-2011" element={<CopaLibertadores2011 />} />
           //Time Sonhos
