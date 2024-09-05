@@ -33,6 +33,7 @@ import CopaLibertadores2011 from "./components/TítulosHistóricos/CopaLibertado
 
 // Import CSS
 import "./App.css";
+import Galeria from "./components/GaleriaTítulos/Galeria";
 
 function App() {
   return (
@@ -64,6 +65,8 @@ function App() {
           <Route path="/titulos-historicos/copa-libertadores-2011" element={<CopaLibertadores2011 />} />
           //Time Sonhos
           <Route path="/time-do-sonhos" element={<TimeSonhos />} />
+          //Galeria De Títulos
+          <Route path="/galeria-de-titulos" element={<Galeria />} />
           //Historia
           <Route path="/historia" element={<Historia />} />
           // Contato
