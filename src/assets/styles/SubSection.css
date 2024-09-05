@@ -23,6 +23,10 @@
     color: #FFFFFF;
 }
 
+.dark .h1-subsection{
+    margin-top: 1em;
+}
+
 /* LIGHT */
 .light .h1-subsection,
 .light .h2-subsection,
@@ -31,6 +35,11 @@
 .light .p-subsection-intro {
     font-family: "Jockey One", sans-serif;
     color: #000000;
+    margin-top: 1em;
+}
+
+.light .h1-subsection{
+    margin-top: 1em;
 }
 
 

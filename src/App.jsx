@@ -7,6 +7,7 @@ import ScrollTop from "./components/common/ScrollTop/ScrollTop";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import TimeSonhos from "./components/TimeSonhos/TimeSonhos";
+import Historia from "./components/História/Historia";
 import Contato from "./components/Contato/Contato";
 //Import SubSections Times Históricos
 import Santos2002_2005 from "../src/components/TimesHistóricos/Santos2002/Santos2002_2005";
@@ -24,13 +25,14 @@ import Alex from "./components/JogadoresHistóricos/Alex/Alex";
 import Neymar from "./components/JogadoresHistóricos/Neymar/Neymar";
 import Ganso from "./components/JogadoresHistóricos/Ganso/Ganso";
 //Import Títulos Históricos
+import Brasileiro2002 from "./components/TítulosHistóricos/Brasileiro2002";
+import Brasileiro2004 from "./components/TítulosHistóricos/Brasileiro2004";
 import CampeonatoPaulista2010 from "./components/TítulosHistóricos/CampeonatoPaulista2010";
 import CopaBrasil2010 from "./components/TítulosHistóricos/CopaBrasil2010";
 import CopaLibertadores2011 from "./components/TítulosHistóricos/CopaLibertadores2011";
 
 // Import CSS
 import "./App.css";
-
 
 function App() {
   return (
@@ -55,11 +57,15 @@ function App() {
           <Route path="/jogadores-historicos/neymar" element={<Neymar />} />
           <Route path="/jogadores-historicos/ph-ganso" element={<Ganso />} />
           //Títulos Históricos
+          <Route path="/titulos-historicos/campeonato-brasileiro-2002" element={<Brasileiro2002 />} />
+          <Route path="/titulos-historicos/campeonato-brasileiro-2004" element={<Brasileiro2004 />} />
           <Route path="/titulos-historicos/campeonato-paulista-2010" element={<CampeonatoPaulista2010 />} />
           <Route path="/titulos-historicos/copa-do-brasil-2010" element={<CopaBrasil2010 />} />
           <Route path="/titulos-historicos/copa-libertadores-2011" element={<CopaLibertadores2011 />} />
           //Time Sonhos
           <Route path="/time-do-sonhos" element={<TimeSonhos />} />
+          //Historia
+          <Route path="/historia" element={<Historia />} />
           // Contato
           <Route path="/contato" element={<Contato />} />
         </Routes>

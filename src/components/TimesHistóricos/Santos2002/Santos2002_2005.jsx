@@ -177,7 +177,7 @@ const Santos2002_2005 = () => {
                 <p className="p-subsection">No primeiro jogo na Vila Belmiro, o Santos mostrou toda a sua capacidade ofensiva e, com gols de Alberto, 
                   Robinho e Diego, ganhou por 3x1, precisando apenas segurar o resultado no Morumbi. <br></br> <br></br>Mas o Santos não queria apenas segurar o resultado, queria mais,
                    e com mais um show de Diego e Robinho, venceu por 2x1. Essa classificação impressionou a todos na época, já que o São Paulo era, disparado,
-                    o melhor time do Brasil naquele momento</p>
+                    o melhor time do Brasil naquele momento.</p>
               </AnimatedScroll>
 
               <AnimatedScroll animationClass="animate-hidden">

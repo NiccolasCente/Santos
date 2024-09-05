@@ -3,6 +3,10 @@
 .dark .p-subsection-players{
     font-family: "Jockey One", sans-serif;
     color: #FFFFFF;
+}
+
+.dark .h1-subsection-players{
+    margin-top: 1em;
 
 }
 
@@ -11,5 +15,9 @@
 .light .p-subsection-players{
     font-family: "Jockey One", sans-serif;
     color: #000000;
+    margin-top: 1em;
+}
 
+.light .h1-subsection-players{
+    margin-top: 1em;
 }
