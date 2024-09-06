@@ -3,12 +3,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "./components/common/ThemeProvider/ThemeContext";
 import ScrollTop from "./components/common/ScrollTop/ScrollTop";
+
 // Import Section
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import TimeSonhos from "./components/TimeSonhos/TimeSonhos";
+import Galeria from "./components/GaleriaTítulos/Galeria";
+import Pele from "./components/Pelé/Pele";
 import Historia from "./components/História/Historia";
 import Contato from "./components/Contato/Contato";
+
 //Import SubSections Times Históricos
 import Santos2002_2005 from "../src/components/TimesHistóricos/Santos2002/Santos2002_2005";
 import Santos2009_2013 from "../src/components/TimesHistóricos/Santos2009/Santos2009_2013";
@@ -24,7 +28,9 @@ import Elano from "./components/JogadoresHistóricos/Elano/Elano";
 import Alex from "./components/JogadoresHistóricos/Alex/Alex";
 import Neymar from "./components/JogadoresHistóricos/Neymar/Neymar";
 import Ganso from "./components/JogadoresHistóricos/Ganso/Ganso";
+
 //Import Títulos Históricos
+import Paulista1978 from "./components/TítulosHistóricos/Paulista1978";
 import Brasileiro2002 from "./components/TítulosHistóricos/Brasileiro2002";
 import Brasileiro2004 from "./components/TítulosHistóricos/Brasileiro2004";
 import CampeonatoPaulista2010 from "./components/TítulosHistóricos/CampeonatoPaulista2010";
@@ -33,7 +39,8 @@ import CopaLibertadores2011 from "./components/TítulosHistóricos/CopaLibertado
 
 // Import CSS
 import "./App.css";
-import Galeria from "./components/GaleriaTítulos/Galeria";
+
+
 
 function App() {
   return (
@@ -58,6 +65,7 @@ function App() {
           <Route path="/jogadores-historicos/neymar" element={<Neymar />} />
           <Route path="/jogadores-historicos/ph-ganso" element={<Ganso />} />
           //Títulos Históricos
+          <Route path="/titulos-historicos/campeonato-paulista-1978" element={<Paulista1978 />} />
           <Route path="/titulos-historicos/campeonato-brasileiro-2002" element={<Brasileiro2002 />} />
           <Route path="/titulos-historicos/campeonato-brasileiro-2004" element={<Brasileiro2004 />} />
           <Route path="/titulos-historicos/campeonato-paulista-2010" element={<CampeonatoPaulista2010 />} />
@@ -67,6 +75,8 @@ function App() {
           <Route path="/time-do-sonhos" element={<TimeSonhos />} />
           //Galeria De Títulos
           <Route path="/galeria-de-titulos" element={<Galeria />} />
+          //Pelé
+          <Route path="/pele" element={<Pele />} />
           //Historia
           <Route path="/historia" element={<Historia />} />
           // Contato
