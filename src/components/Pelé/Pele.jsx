@@ -9,8 +9,6 @@ import PeleCrianca from "../../assets/Pele/PeleCriança.jpg";
 import Pele15 from "../../assets/Pele/Pele15.jpg";
 import PeleDespedida from "../../assets/Pele/PeleDespedida.jfif";
 import PeleAdeus from "../../assets/Pele/PeleAdeus.jpg";
-import PeleEterno from "../../assets/pele/PeleEterno.jpg";
-
 //Componentes CSS
 import "../../assets/styles/SubSection.css"
 
@@ -116,10 +114,6 @@ const Pele = () => {
                     <AnimatedScroll animationClass="animate-hidden">
                         <img src = {PeleAdeus} className="img-section" alt="Pele last dance"/>
                         <p className="p-subsection">Famosa Foto De Pelé Ajoelhado Na Vila Belmiro Em Seu Último Jogo Pelo Peixão, Em 1974</p>
-                    </AnimatedScroll>
-
-                    <AnimatedScroll animationClass="animate-hidden">
-                        <img src={PeleEterno} className="img-section" alt="Pele last dance"/>
                     </AnimatedScroll>
 
                     <AnimatedScroll animationClass="animate-hidden">
