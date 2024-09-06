@@ -46,7 +46,7 @@ const Main = () => {
             <div className="image-wrapper">
               <img src={Main4} alt="Imagem 4" className="img-fluid" />
               <Link to="/jogadores-historicos/neymar" className="link-text">
-                <div className="image-text">Neymar Jr.</div>
+                <div className="image-text">Jogadores Históricos - Neymar Jr.</div>
               </Link>
             </div>
           </Col>

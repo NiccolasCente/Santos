@@ -1,23 +1,31 @@
 .time-do-sonhos img {
-    display: block;
-    margin: 0 auto;
-    border: 1px solid #FFFFFF;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  }
-  
-  .time-do-sonhos img:hover {
-    transform: translateY(-10px); 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  }
-
-  @media (max-width: 400px) {
-    .time-do-sonhos img {
-        max-width: 90%; 
-    }
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #FFFFFF;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin-top: 2em;
 }
 
-@media (max-width: 450px) {
+.time-do-sonhos img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.time-list {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
   .time-do-sonhos img {
-      max-width: 95%; 
+      max-width: 100%;
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .time-list {
+      text-align: center;
   }
 }
