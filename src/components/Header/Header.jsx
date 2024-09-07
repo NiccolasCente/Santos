@@ -28,6 +28,8 @@ const Header = () => {
     { path: "/jogadores-historicos/zito", label: "Zito" },
     { path: "/jogadores-historicos/edu", label: "Edu" },
     { path: "/jogadores-historicos/clodoaldo", label: "Clodoaldo" },
+    { path: "/jogadores-historicos/juary", label: "Juary"},
+    { path: "/jogadores-historicos/pita", label:"Pita"},
     { path: "/jogadores-historicos/diego", label: "Diego" },
     { path: "/jogadores-historicos/elano", label: "Elano" },
     { path: "/jogadores-historicos/alex", label: "Alex" },

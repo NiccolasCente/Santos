@@ -23,6 +23,8 @@ import Coutinho from "../src/components/JogadoresHistóricos/Coutinho/Coutinho";
 import Zito from "../src/components/JogadoresHistóricos/Zito/Zito";
 import Edu from "../src/components/JogadoresHistóricos/Edu/Edu";
 import Clodoaldo from "./components/JogadoresHistóricos/Clodoaldo/Clodoaldo";
+import Juary from "./components/JogadoresHistóricos/Juary/Juary";
+import Pita from "./components/JogadoresHistóricos/Pita/Pita";
 import Diego from "./components/JogadoresHistóricos/Diego/Diego";
 import Elano from "./components/JogadoresHistóricos/Elano/Elano";
 import Alex from "./components/JogadoresHistóricos/Alex/Alex";
@@ -39,8 +41,6 @@ import CopaLibertadores2011 from "./components/TítulosHistóricos/CopaLibertado
 
 // Import CSS
 import "./App.css";
-
-
 
 function App() {
   return (
@@ -59,6 +59,8 @@ function App() {
           <Route path="/jogadores-historicos/zito" element={<Zito />} />
           <Route path="/jogadores-historicos/edu" element={<Edu />} />
           <Route path="/jogadores-historicos/clodoaldo" element={<Clodoaldo />} />
+          <Route path="/jogadores-historicos/juary" element={<Juary />} />
+          <Route path="/jogadores-historicos/pita" element={<Pita />} />
           <Route path="/jogadores-historicos/diego" element={<Diego />} />
           <Route path="/jogadores-historicos/elano" element={<Elano />} />
           <Route path="/jogadores-historicos/alex" element={<Alex />} />
