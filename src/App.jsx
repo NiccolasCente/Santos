@@ -32,6 +32,7 @@ import Neymar from "./components/JogadoresHistóricos/Neymar/Neymar";
 import Ganso from "./components/JogadoresHistóricos/Ganso/Ganso";
 
 //Import Títulos Históricos
+import Mundial1963 from "./components/TítulosHistóricos/Mundial1963";
 import Paulista1978 from "./components/TítulosHistóricos/Paulista1978";
 import Brasileiro2002 from "./components/TítulosHistóricos/Brasileiro2002";
 import Brasileiro2004 from "./components/TítulosHistóricos/Brasileiro2004";
@@ -67,6 +68,7 @@ function App() {
           <Route path="/jogadores-historicos/neymar" element={<Neymar />} />
           <Route path="/jogadores-historicos/ph-ganso" element={<Ganso />} />
           //Títulos Históricos
+          <Route path="/titulos-historicos/mundial-1963" element={<Mundial1963 />} />
           <Route path="/titulos-historicos/campeonato-paulista-1978" element={<Paulista1978 />} />
           <Route path="/titulos-historicos/campeonato-brasileiro-2002" element={<Brasileiro2002 />} />
           <Route path="/titulos-historicos/campeonato-brasileiro-2004" element={<Brasileiro2004 />} />
