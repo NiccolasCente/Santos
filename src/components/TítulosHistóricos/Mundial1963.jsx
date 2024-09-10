@@ -23,12 +23,13 @@ const Mundial1963 = () => {
                 <Col xs={12} md={8} lg={6}>
                   <div className="text-center">
                     <AnimatedScroll animationClass="animate-hidden">
-                        <h1 className="h1-subsection">O BiMundial Do Melhor Time Da Terra</h1>
+                        <h1 className="h1-subsection">Títulos Históricos - Mundial 1963</h1>
                         <img src={PeleMazzola} className="img-section" alt="Pelé e Rivera"/>
                         <p className="p-subsection">Pelé e Rivera Em 1963 No Mundial De 1963</p>
                     </AnimatedScroll>
 
                     <AnimatedScroll animationClass="animate-hidden">
+                     <h2 className="h2-subsection">O BiMundial Do Melhor Time Da Terra</h2>
                         <p className="p-subsection">A quarta edição da <strong style={{color: "#007bff"}}> Copa Intercontinental</strong>, disputada
                          em 1963, foi a primeira em que brasileiros e italianos mediram forças.
                              Os representantes dessas grandes escolas de futebol eram o Milan, primeiro clube da Itália a ganhar a
