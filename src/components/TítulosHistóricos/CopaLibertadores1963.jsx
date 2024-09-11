@@ -5,7 +5,7 @@ import {Container, Row, Col} from "react-bootstrap";
 import AnimatedScroll from "../common/AnimatedScroll/AnimatedScroll";
 
 //Componentes Imagens
-import TimeTitular from "../../assets/CopaLibertadores1963/TimeTItular.jpg";
+import TimeTitular from "../../assets/CopaLibertadores1963/TimeTitular.jpg";
 //Componentes CSS
 import "../../assets/styles/SubSection.css";
 
